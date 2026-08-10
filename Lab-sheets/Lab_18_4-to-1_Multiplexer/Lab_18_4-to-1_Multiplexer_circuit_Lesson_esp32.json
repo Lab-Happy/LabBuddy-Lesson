@@ -1,0 +1,1733 @@
+{
+  "version": "1.0",
+  "lesson_id": "editor-20260729",
+  "title": "Lab_18_4-to-1_Multiplexer_circuit_Lesson",
+  "title_th": "Lab_18_4-to-1_Multiplexer_circuit_Lesson",
+  "category": "custom",
+  "difficulty": "beginner",
+  "estimated_minutes": 25,
+  "ic": "",
+  "pages": [
+    {
+      "page_type": "cover",
+      "title": "4-to-1 Multiplexer Lesson",
+      "subtitle": "วงจรเลือกสลับสัญญาณข้อมูลดิจิทัลขนาด 4-to-1",
+      "ic_label": "74153 / 74151",
+      "objectives": [
+        "เข้าใจหลักการทำงานของ 4-to-1 Multiplexer (Data Selector)",
+        "สามารถเลือกส่งผ่านข้อมูล 4 ช่อง ($I_0, I_1, I_2, I_3$) ออกไปยังเอาต์พุต $Y$ เดียว ด้วยสาย Select 2 บิต ($S_1, S_0$)",
+        "เรียนรู้การสวิตช์และรวมช่องสัญญาณข้อมูลดิจิทัลหลายสายในระบบสื่อสาร"
+      ],
+      "body": null,
+      "circuit_screen": null,
+      "circuit_file": null,
+      "hint": null,
+      "inputs": null,
+      "outputs": null,
+      "gate_type": null,
+      "ic": null,
+      "instructions": null,
+      "photo_url": null,
+      "photo_caption": null,
+      "encouragement_icon": null,
+      "encouragement_message": null
+    },
+    {
+      "page_type": "theory",
+      "title": "ทฤษฎีพื้นฐาน",
+      "subtitle": null,
+      "ic_label": null,
+      "objectives": null,
+      "body": "4-to-1 Multiplexer ทำหน้าที่เลือกสัญญาณข้อมูลจากอินพุต 4 ช่อง ($I_0, I_1, I_2, I_3$) ออกไปยังเอาต์พุต $Y$ ช่องเดียว โดยใช้สาย Select 2 ช่อง ($S_1, S_0$) ในการกำหนดช่องข้อมูล:\n- เมื่อ $S_1S_0 = 00 \\rightarrow Y = I_0$\n- เมื่อ $S_1S_0 = 01 \\rightarrow Y = I_1$\n- เมื่อ $S_1S_0 = 10 \\rightarrow Y = I_2$\n- เมื่อ $S_1S_0 = 11 \\rightarrow Y = I_3$\nสมการบูลีน: $Y = \\overline{S_1}\\cdot\\overline{S_0}\\cdot I_0 + \\overline{S_1}\\cdot S_0\\cdot I_1 + S_1\\cdot\\overline{S_0}\\cdot I_2 + S_1\\cdot S_0\\cdot I_3$\n",
+      "circuit_screen": null,
+      "circuit_file": null,
+      "hint": null,
+      "inputs": null,
+      "outputs": null,
+      "gate_type": null,
+      "ic": null,
+      "instructions": null,
+      "photo_url": null,
+      "photo_caption": null,
+      "encouragement_icon": null,
+      "encouragement_message": null
+    },
+    {
+      "page_type": "circuit",
+      "title": "วงจรทดลอง",
+      "subtitle": null,
+      "ic_label": null,
+      "objectives": null,
+      "body": null,
+      "circuit_screen": {
+        "Version": "2.0-2607",
+        "Title": "Converted Circuit",
+        "Description": "coord_mode=raw",
+        "Width": 1000,
+        "Height": 1000,
+        "BackgroundColor": "#FFFFFF",
+        "EmbeddedSymbols": {
+          "Dynamic_Symbol_318793835": {
+            "Id": "Dynamic_Symbol_318793835",
+            "Title": "And Gate",
+            "Category": "Dynamic",
+            "PathData": "M 394.65 200.4 L 414.65 200.4 M 314.65 180.4 L 334.65 180.4 M 314.65 200.4 L 334.65 200.4 M 314.65 220.4 L 334.65 220.4 M 334.65 170.4 L 364.65 170.4 C 381.22 170.4 394.65 183.83 394.65 200.4 C 394.65 216.97 381.22 230.4 364.65 230.4 L 334.65 230.4 Z",
+            "ViewBox": {
+              "X": 0,
+              "Y": 0,
+              "Width": 100,
+              "Height": 60
+            },
+            "RawSvgContent": "<path d=\"M 394.65 200.4 L 414.65 200.4 M 314.65 180.4 L 334.65 180.4 M 314.65 200.4 L 334.65 200.4 M 314.65 220.4 L 334.65 220.4\" fill=\"none\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\" style=\"stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" /><path d=\"M 334.65 170.4 L 364.65 170.4 C 381.22 170.4 394.65 183.83 394.65 200.4 C 394.65 216.97 381.22 230.4 364.65 230.4 L 334.65 230.4 Z\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\" style=\"fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" />",
+            "Description": "Generated dynamically from draw.io SVG element payload"
+          },
+          "Dynamic_Symbol_1629843475": {
+            "Id": "Dynamic_Symbol_1629843475",
+            "Title": "And Gate",
+            "Category": "Dynamic",
+            "PathData": "M 394.65 280.4 L 414.65 280.4 M 314.65 260.4 L 334.65 260.4 M 314.65 280.4 L 334.65 280.4 M 314.65 300.4 L 334.65 300.4 M 334.65 250.4 L 364.65 250.4 C 381.22 250.4 394.65 263.83 394.65 280.4 C 394.65 296.97 381.22 310.4 364.65 310.4 L 334.65 310.4 Z",
+            "ViewBox": {
+              "X": 0,
+              "Y": 0,
+              "Width": 100,
+              "Height": 60
+            },
+            "RawSvgContent": "<path d=\"M 394.65 280.4 L 414.65 280.4 M 314.65 260.4 L 334.65 260.4 M 314.65 280.4 L 334.65 280.4 M 314.65 300.4 L 334.65 300.4\" fill=\"none\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\" style=\"stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" /><path d=\"M 334.65 250.4 L 364.65 250.4 C 381.22 250.4 394.65 263.83 394.65 280.4 C 394.65 296.97 381.22 310.4 364.65 310.4 L 334.65 310.4 Z\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\" style=\"fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" />",
+            "Description": "Generated dynamically from draw.io SVG element payload"
+          },
+          "Dynamic_Symbol_458135964": {
+            "Id": "Dynamic_Symbol_458135964",
+            "Title": "And Gate",
+            "Category": "Dynamic",
+            "PathData": "M 394.65 360.4 L 414.65 360.4 M 314.65 340.4 L 334.65 340.4 M 314.65 360.4 L 334.65 360.4 M 314.65 380.4 L 334.65 380.4 M 334.65 330.4 L 364.65 330.4 C 381.22 330.4 394.65 343.83 394.65 360.4 C 394.65 376.97 381.22 390.4 364.65 390.4 L 334.65 390.4 Z",
+            "ViewBox": {
+              "X": 0,
+              "Y": 0,
+              "Width": 100,
+              "Height": 60
+            },
+            "RawSvgContent": "<path d=\"M 394.65 360.4 L 414.65 360.4 M 314.65 340.4 L 334.65 340.4 M 314.65 360.4 L 334.65 360.4 M 314.65 380.4 L 334.65 380.4\" fill=\"none\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\" style=\"stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" /><path d=\"M 334.65 330.4 L 364.65 330.4 C 381.22 330.4 394.65 343.83 394.65 360.4 C 394.65 376.97 381.22 390.4 364.65 390.4 L 334.65 390.4 Z\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\" style=\"fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" />",
+            "Description": "Generated dynamically from draw.io SVG element payload"
+          },
+          "Dynamic_Symbol_1435241110": {
+            "Id": "Dynamic_Symbol_1435241110",
+            "Title": "And Gate",
+            "Category": "Dynamic",
+            "PathData": "M 394.65 440.4 L 414.65 440.4 M 314.65 420.4 L 334.65 420.4 M 314.65 440.4 L 334.65 440.4 M 314.65 460.4 L 334.65 460.4 M 334.65 410.4 L 364.65 410.4 C 381.22 410.4 394.65 423.83 394.65 440.4 C 394.65 456.97 381.22 470.4 364.65 470.4 L 334.65 470.4 Z",
+            "ViewBox": {
+              "X": 0,
+              "Y": 0,
+              "Width": 100,
+              "Height": 60
+            },
+            "RawSvgContent": "<path d=\"M 394.65 440.4 L 414.65 440.4 M 314.65 420.4 L 334.65 420.4 M 314.65 440.4 L 334.65 440.4 M 314.65 460.4 L 334.65 460.4\" fill=\"none\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\" style=\"stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" /><path d=\"M 334.65 410.4 L 364.65 410.4 C 381.22 410.4 394.65 423.83 394.65 440.4 C 394.65 456.97 381.22 470.4 364.65 470.4 L 334.65 470.4 Z\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\" style=\"fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" />",
+            "Description": "Generated dynamically from draw.io SVG element payload"
+          },
+          "Dynamic_Symbol_634247509": {
+            "Id": "Dynamic_Symbol_634247509",
+            "Title": "Or Gate",
+            "Category": "Dynamic",
+            "PathData": "M 554.65 320.4 L 574.65 320.4 M 474.65 297.9 L 497.65 297.9 M 474.65 312.9 L 497.65 312.9 M 474.65 327.9 L 497.65 327.9 M 474.65 342.9 L 497.65 342.9 M 514.65 290.4 C 532.12 290.96 547.71 302.65 554.65 320.4 C 547.71 338.15 532.12 349.84 514.65 350.4 L 489.65 350.4 C 500.37 331.84 500.37 308.96 489.65 290.4 Z",
+            "ViewBox": {
+              "X": 0,
+              "Y": 0,
+              "Width": 100,
+              "Height": 60
+            },
+            "RawSvgContent": "<path d=\"M 554.65 320.4 L 574.65 320.4 M 474.65 297.9 L 497.65 297.9 M 474.65 312.9 L 497.65 312.9 M 474.65 327.9 L 497.65 327.9 M 474.65 342.9 L 497.65 342.9\" fill=\"none\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\" style=\"stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" /><path d=\"M 514.65 290.4 C 532.12 290.96 547.71 302.65 554.65 320.4 C 547.71 338.15 532.12 349.84 514.65 350.4 L 489.65 350.4 C 500.37 331.84 500.37 308.96 489.65 290.4 Z\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\" style=\"fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" />",
+            "Description": "Generated dynamically from draw.io SVG element payload"
+          },
+          "Dynamic_Symbol_134702523": {
+            "Id": "Dynamic_Symbol_134702523",
+            "Title": "Inverter 2",
+            "Category": "Dynamic",
+            "PathData": "M 104.65 30.4 L 124.65 30.4 M 188.65 30.4 L 204.65 30.4 M 181.65 30.4 L 121.65 60.4 L 121.65 0.4 Z",
+            "ViewBox": {
+              "X": 0,
+              "Y": 0,
+              "Width": 100,
+              "Height": 60
+            },
+            "RawSvgContent": "<path d=\"M 104.65 30.4 L 124.65 30.4\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\" style=\"fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" /><path d=\"M 188.65 30.4 L 204.65 30.4\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\" style=\"fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" /><path d=\"M 181.65 30.4 L 121.65 60.4 L 121.65 0.4 Z\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\" style=\"fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" /><ellipse cx=\"185.65\" cy=\"30.4\" rx=\"3.9999999999999996\" ry=\"3.9999999999999996\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\" style=\"fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" />",
+            "Description": "Generated dynamically from draw.io SVG element payload"
+          },
+          "Dynamic_Symbol_436925530": {
+            "Id": "Dynamic_Symbol_436925530",
+            "Title": "Inverter 2",
+            "Category": "Dynamic",
+            "PathData": "M 104.65 120.4 L 124.65 120.4 M 188.65 120.4 L 204.65 120.4 M 181.65 120.4 L 121.65 150.4 L 121.65 90.4 Z",
+            "ViewBox": {
+              "X": 0,
+              "Y": 0,
+              "Width": 100,
+              "Height": 60
+            },
+            "RawSvgContent": "<path d=\"M 104.65 120.4 L 124.65 120.4\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\" style=\"fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" /><path d=\"M 188.65 120.4 L 204.65 120.4\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\" style=\"fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" /><path d=\"M 181.65 120.4 L 121.65 150.4 L 121.65 90.4 Z\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\" style=\"fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" /><ellipse cx=\"185.65\" cy=\"120.4\" rx=\"3.9999999999999996\" ry=\"3.9999999999999996\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\" style=\"fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" />",
+            "Description": "Generated dynamically from draw.io SVG element payload"
+          },
+          "Dynamic_Symbol_783196573": {
+            "Id": "Dynamic_Symbol_783196573",
+            "Title": "Component",
+            "Category": "Dynamic",
+            "PathData": "M -0.35,15.4 H 19.65 V 45.4 H -0.35 Z",
+            "ViewBox": {
+              "X": 0,
+              "Y": 0,
+              "Width": 20,
+              "Height": 30
+            },
+            "RawSvgContent": "<rect x=\"-0.35\" y=\"15.4\" width=\"20\" height=\"30\" fill=\"none\" stroke=\"none\" pointer-events=\"all\" /><text x=\"10\" y=\"34\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\" style=\"fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">S0</text>",
+            "Description": "Generated dynamically from draw.io SVG element payload"
+          },
+          "Dynamic_Symbol_127393178": {
+            "Id": "Dynamic_Symbol_127393178",
+            "Title": "Component",
+            "Category": "Dynamic",
+            "PathData": "M -0.35,105.4 H 19.65 V 135.4 H -0.35 Z",
+            "ViewBox": {
+              "X": 0,
+              "Y": 0,
+              "Width": 20,
+              "Height": 30
+            },
+            "RawSvgContent": "<rect x=\"-0.35\" y=\"105.4\" width=\"20\" height=\"30\" fill=\"none\" stroke=\"none\" pointer-events=\"all\" /><text x=\"10\" y=\"124\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\" style=\"fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">S1</text>",
+            "Description": "Generated dynamically from draw.io SVG element payload"
+          },
+          "Dynamic_Symbol_1702324817": {
+            "Id": "Dynamic_Symbol_1702324817",
+            "Title": "Component",
+            "Category": "Dynamic",
+            "PathData": "M -0.35,165.4 H 19.65 V 195.4 H -0.35 Z",
+            "ViewBox": {
+              "X": 0,
+              "Y": 0,
+              "Width": 20,
+              "Height": 30
+            },
+            "RawSvgContent": "<rect x=\"-0.35\" y=\"165.4\" width=\"20\" height=\"30\" fill=\"none\" stroke=\"none\" pointer-events=\"all\" /><text x=\"10\" y=\"184\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\" style=\"fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">D0</text>",
+            "Description": "Generated dynamically from draw.io SVG element payload"
+          },
+          "Dynamic_Symbol_2028168141": {
+            "Id": "Dynamic_Symbol_2028168141",
+            "Title": "Component",
+            "Category": "Dynamic",
+            "PathData": "M -0.35,245.4 H 19.65 V 275.4 H -0.35 Z",
+            "ViewBox": {
+              "X": 0,
+              "Y": 0,
+              "Width": 20,
+              "Height": 30
+            },
+            "RawSvgContent": "<rect x=\"-0.35\" y=\"245.4\" width=\"20\" height=\"30\" fill=\"none\" stroke=\"none\" pointer-events=\"all\" /><text x=\"10\" y=\"264\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\" style=\"fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">D1</text>",
+            "Description": "Generated dynamically from draw.io SVG element payload"
+          },
+          "Dynamic_Symbol_710230764": {
+            "Id": "Dynamic_Symbol_710230764",
+            "Title": "Component",
+            "Category": "Dynamic",
+            "PathData": "M -0.35,325.4 H 19.65 V 355.4 H -0.35 Z",
+            "ViewBox": {
+              "X": 0,
+              "Y": 0,
+              "Width": 20,
+              "Height": 30
+            },
+            "RawSvgContent": "<rect x=\"-0.35\" y=\"325.4\" width=\"20\" height=\"30\" fill=\"none\" stroke=\"none\" pointer-events=\"all\" /><text x=\"10\" y=\"344\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\" style=\"fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">D2</text>",
+            "Description": "Generated dynamically from draw.io SVG element payload"
+          },
+          "Dynamic_Symbol_1646129956": {
+            "Id": "Dynamic_Symbol_1646129956",
+            "Title": "Component",
+            "Category": "Dynamic",
+            "PathData": "M -0.35,405.4 H 19.65 V 435.4 H -0.35 Z",
+            "ViewBox": {
+              "X": 0,
+              "Y": 0,
+              "Width": 20,
+              "Height": 30
+            },
+            "RawSvgContent": "<rect x=\"-0.35\" y=\"405.4\" width=\"20\" height=\"30\" fill=\"none\" stroke=\"none\" pointer-events=\"all\" /><text x=\"10\" y=\"424\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\" style=\"fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">D3</text>",
+            "Description": "Generated dynamically from draw.io SVG element payload"
+          },
+          "Dynamic_Symbol_2076042411": {
+            "Id": "Dynamic_Symbol_2076042411",
+            "Title": "Component",
+            "Category": "Dynamic",
+            "PathData": "M 599.65,305.4 H 614.65 V 335.4 H 599.65 Z",
+            "ViewBox": {
+              "X": 0,
+              "Y": 0,
+              "Width": 15,
+              "Height": 30
+            },
+            "RawSvgContent": "<rect x=\"599.65\" y=\"305.4\" width=\"15\" height=\"30\" fill=\"none\" stroke=\"none\" pointer-events=\"all\" /><text x=\"607\" y=\"324\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\" style=\"fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">Y</text>",
+            "Description": "Generated dynamically from draw.io SVG element payload"
+          }
+        },
+        "Ports": [
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-24",
+            "Type": "input",
+            "X": 25,
+            "Y": 30,
+            "Radius": 5
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-25",
+            "Type": "input",
+            "X": 25,
+            "Y": 120,
+            "Radius": 5
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-30",
+            "Type": "input",
+            "X": 25,
+            "Y": 180,
+            "Radius": 5
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-43",
+            "Type": "input",
+            "X": 25,
+            "Y": 260,
+            "Radius": 5
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-45",
+            "Type": "input",
+            "X": 25,
+            "Y": 340,
+            "Radius": 5
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-47",
+            "Type": "input",
+            "X": 25,
+            "Y": 420,
+            "Radius": 5
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-49",
+            "Type": "output",
+            "X": 245,
+            "Y": 300,
+            "Radius": 5
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-62",
+            "Type": "output",
+            "X": 285,
+            "Y": 380,
+            "Radius": 5
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-65",
+            "Type": "input",
+            "X": 225,
+            "Y": 460,
+            "Radius": 5
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-66",
+            "Type": "input",
+            "X": 265,
+            "Y": 440,
+            "Radius": 5
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-75",
+            "Type": "output",
+            "X": 595,
+            "Y": 320,
+            "Radius": 5
+          }
+        ],
+        "Wires": [
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-18",
+            "Path": "M 414.65 200.4 L 459.65 200.45 L 459.65 297.93 L 474.65 297.9",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "eh0_WIQocumm8Z2bgIKi-11",
+            "TargetId": "eh0_WIQocumm8Z2bgIKi-15"
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-19",
+            "Path": "M 414.65 440.4 L 459.65 440.35 L 459.65 342.87 L 474.65 342.9",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "eh0_WIQocumm8Z2bgIKi-14",
+            "TargetId": "eh0_WIQocumm8Z2bgIKi-15"
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-56",
+            "Path": "M 265.00 280.00 L 264.70 70.45 L 84.39 70.45 L 85.00 30.00",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "eh0_WIQocumm8Z2bgIKi-54",
+            "TargetId": "eh0_WIQocumm8Z2bgIKi-22"
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-60",
+            "Path": "M 65.00 120.00 L 64.70 160.45 L 224.70 160.45 L 225.00 360.00",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "eh0_WIQocumm8Z2bgIKi-23",
+            "TargetId": "eh0_WIQocumm8Z2bgIKi-59"
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-16",
+            "Path": "M 414.65 280.4 L 444.6 280.45 L 444.6 312.87 L 474.65 312.9",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "eh0_WIQocumm8Z2bgIKi-12",
+            "TargetId": "eh0_WIQocumm8Z2bgIKi-15"
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-17",
+            "Path": "M 414.65 360.4 L 444.6 360.35 L 444.6 327.93 L 474.65 327.9",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "eh0_WIQocumm8Z2bgIKi-13",
+            "TargetId": "eh0_WIQocumm8Z2bgIKi-15"
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-26",
+            "Path": "M 25.00 30.00 L 85.00 30.00",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "eh0_WIQocumm8Z2bgIKi-24",
+            "TargetId": "eh0_WIQocumm8Z2bgIKi-22"
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-27",
+            "Path": "M 85.00 30.00 L 104.65 30.40",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "eh0_WIQocumm8Z2bgIKi-22",
+            "TargetId": "eh0_WIQocumm8Z2bgIKi-20"
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-28",
+            "Path": "M 25.00 120.00 L 65.00 120.00",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "eh0_WIQocumm8Z2bgIKi-25",
+            "TargetId": "eh0_WIQocumm8Z2bgIKi-23"
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-29",
+            "Path": "M 65.00 120.00 L 104.65 120.40",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "eh0_WIQocumm8Z2bgIKi-23",
+            "TargetId": "eh0_WIQocumm8Z2bgIKi-21"
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-34",
+            "Path": "M 25.00 180.00 L 314.65 180.40",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "eh0_WIQocumm8Z2bgIKi-30",
+            "TargetId": "eh0_WIQocumm8Z2bgIKi-11"
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-40",
+            "Path": "M 204.65 30.40 L 284.60 30.45 L 285.00 200.00",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "eh0_WIQocumm8Z2bgIKi-20",
+            "TargetId": "eh0_WIQocumm8Z2bgIKi-37"
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-41",
+            "Path": "M 204.65 120.40 L 244.60 120.45 L 245.00 220.00",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "eh0_WIQocumm8Z2bgIKi-21",
+            "TargetId": "eh0_WIQocumm8Z2bgIKi-38"
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-44",
+            "Path": "M 25.00 260.00 L 314.65 260.40",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "eh0_WIQocumm8Z2bgIKi-43"
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-46",
+            "Path": "M 25.00 340.00 L 314.65 340.40",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "eh0_WIQocumm8Z2bgIKi-45"
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-48",
+            "Path": "M 25.00 420.00 L 314.65 420.40",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "eh0_WIQocumm8Z2bgIKi-47"
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-50",
+            "Path": "M 314.65 300.40 L 245.00 300.00",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "eh0_WIQocumm8Z2bgIKi-12",
+            "TargetId": "eh0_WIQocumm8Z2bgIKi-49"
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-51",
+            "Path": "M 245.00 220.00 L 245.00 300.00",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "eh0_WIQocumm8Z2bgIKi-38",
+            "TargetId": "eh0_WIQocumm8Z2bgIKi-49"
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-55",
+            "Path": "M 314.65 280.40 L 265.00 280.00",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "eh0_WIQocumm8Z2bgIKi-12",
+            "TargetId": "eh0_WIQocumm8Z2bgIKi-54"
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-57",
+            "Path": "M 314.65 200.40 L 285.00 200.00",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "eh0_WIQocumm8Z2bgIKi-11",
+            "TargetId": "eh0_WIQocumm8Z2bgIKi-37"
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-58",
+            "Path": "M 314.65 220.40 L 245.00 220.00",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "eh0_WIQocumm8Z2bgIKi-11",
+            "TargetId": "eh0_WIQocumm8Z2bgIKi-38"
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-61",
+            "Path": "M 314.65 360.40 L 225.00 360.00",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "eh0_WIQocumm8Z2bgIKi-13",
+            "TargetId": "eh0_WIQocumm8Z2bgIKi-59"
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-63",
+            "Path": "M 314.65 380.40 L 285.00 380.00",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "eh0_WIQocumm8Z2bgIKi-13",
+            "TargetId": "eh0_WIQocumm8Z2bgIKi-62"
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-64",
+            "Path": "M 285.00 200.00 L 285.00 380.00",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "eh0_WIQocumm8Z2bgIKi-37",
+            "TargetId": "eh0_WIQocumm8Z2bgIKi-62"
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-67",
+            "Path": "M 314.65 440.40 L 265.00 440.00",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "eh0_WIQocumm8Z2bgIKi-14",
+            "TargetId": "eh0_WIQocumm8Z2bgIKi-66"
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-68",
+            "Path": "M 314.65 460.40 L 225.00 460.00",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "eh0_WIQocumm8Z2bgIKi-14",
+            "TargetId": "eh0_WIQocumm8Z2bgIKi-65"
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-69",
+            "Path": "M 225.00 460.00 L 225.00 360.00",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "eh0_WIQocumm8Z2bgIKi-65",
+            "TargetId": "eh0_WIQocumm8Z2bgIKi-59"
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-70",
+            "Path": "M 265.00 440.00 L 265.00 280.00",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "eh0_WIQocumm8Z2bgIKi-66",
+            "TargetId": "eh0_WIQocumm8Z2bgIKi-54"
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-76",
+            "Path": "M 574.65 320.40 L 595.00 320.00",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "eh0_WIQocumm8Z2bgIKi-15",
+            "TargetId": "eh0_WIQocumm8Z2bgIKi-75"
+          }
+        ],
+        "Junctions": [
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-22",
+            "X": 85,
+            "Y": 30,
+            "Radius": 5,
+            "Color": "#2C3E50"
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-23",
+            "X": 65,
+            "Y": 120,
+            "Radius": 5,
+            "Color": "#2C3E50"
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-37",
+            "X": 285,
+            "Y": 200,
+            "Radius": 5,
+            "Color": "#2C3E50"
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-38",
+            "X": 245,
+            "Y": 220,
+            "Radius": 5,
+            "Color": "#2C3E50"
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-54",
+            "X": 265,
+            "Y": 280,
+            "Radius": 5,
+            "Color": "#2C3E50"
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-59",
+            "X": 225,
+            "Y": 360,
+            "Radius": 5,
+            "Color": "#2C3E50"
+          }
+        ],
+        "Widgets": [
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-11",
+            "Type": "svgSymbol",
+            "X": 315,
+            "Y": 170,
+            "Width": 100,
+            "Height": 60,
+            "Rotation": 0,
+            "SymbolId": "Dynamic_Symbol_318793835",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-12",
+            "Type": "svgSymbol",
+            "X": 315,
+            "Y": 250,
+            "Width": 100,
+            "Height": 60,
+            "Rotation": 0,
+            "SymbolId": "Dynamic_Symbol_1629843475",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-13",
+            "Type": "svgSymbol",
+            "X": 315,
+            "Y": 330,
+            "Width": 100,
+            "Height": 60,
+            "Rotation": 0,
+            "SymbolId": "Dynamic_Symbol_458135964",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-14",
+            "Type": "svgSymbol",
+            "X": 315,
+            "Y": 410,
+            "Width": 100,
+            "Height": 60,
+            "Rotation": 0,
+            "SymbolId": "Dynamic_Symbol_1435241110",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-15",
+            "Type": "svgSymbol",
+            "X": 475,
+            "Y": 290,
+            "Width": 100,
+            "Height": 60,
+            "Rotation": 0,
+            "SymbolId": "Dynamic_Symbol_634247509",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-20",
+            "Type": "svgSymbol",
+            "X": 105,
+            "Y": 0,
+            "Width": 100,
+            "Height": 60,
+            "Rotation": 0,
+            "SymbolId": "Dynamic_Symbol_134702523",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-21",
+            "Type": "svgSymbol",
+            "X": 105,
+            "Y": 90,
+            "Width": 100,
+            "Height": 60,
+            "Rotation": 0,
+            "SymbolId": "Dynamic_Symbol_436925530",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-35",
+            "Type": "svgSymbol",
+            "X": 0,
+            "Y": 15,
+            "Width": 20,
+            "Height": 30,
+            "Rotation": 0,
+            "SymbolId": "Dynamic_Symbol_783196573",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-36",
+            "Type": "svgSymbol",
+            "X": 0,
+            "Y": 105,
+            "Width": 20,
+            "Height": 30,
+            "Rotation": 0,
+            "SymbolId": "Dynamic_Symbol_127393178",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-71",
+            "Type": "svgSymbol",
+            "X": 0,
+            "Y": 165,
+            "Width": 20,
+            "Height": 30,
+            "Rotation": 0,
+            "SymbolId": "Dynamic_Symbol_1702324817",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-72",
+            "Type": "svgSymbol",
+            "X": 0,
+            "Y": 245,
+            "Width": 20,
+            "Height": 30,
+            "Rotation": 0,
+            "SymbolId": "Dynamic_Symbol_2028168141",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-73",
+            "Type": "svgSymbol",
+            "X": 0,
+            "Y": 325,
+            "Width": 20,
+            "Height": 30,
+            "Rotation": 0,
+            "SymbolId": "Dynamic_Symbol_710230764",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-74",
+            "Type": "svgSymbol",
+            "X": 0,
+            "Y": 405,
+            "Width": 20,
+            "Height": 30,
+            "Rotation": 0,
+            "SymbolId": "Dynamic_Symbol_1646129956",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "eh0_WIQocumm8Z2bgIKi-77",
+            "Type": "svgSymbol",
+            "X": 600,
+            "Y": 305,
+            "Width": 15,
+            "Height": 30,
+            "Rotation": 0,
+            "SymbolId": "Dynamic_Symbol_2076042411",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          }
+        ]
+      },
+      "circuit_file": null,
+      "hint": "ใช้ IC 74153 (Dual 4-to-1 MUX) หรือต่อด้วย NOT 2 ตัว, AND 4 ตัว (3-input) และ OR 1 ตัว (4-input)",
+      "inputs": [
+        "A0",
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ],
+      "outputs": [
+        "Y0"
+      ],
+      "gate_type": null,
+      "ic": null,
+      "instructions": null,
+      "photo_url": null,
+      "photo_caption": null,
+      "encouragement_icon": null,
+      "encouragement_message": null
+    },
+    {
+      "page_type": "verify",
+      "title": "ตรวจสอบวงจร",
+      "subtitle": null,
+      "ic_label": null,
+      "objectives": null,
+      "body": null,
+      "circuit_screen": null,
+      "circuit_file": null,
+      "hint": null,
+      "inputs": null,
+      "outputs": null,
+      "gate_type": null,
+      "ic": null,
+      "instructions": null,
+      "photo_url": null,
+      "photo_caption": null,
+      "encouragement_icon": null,
+      "encouragement_message": null,
+      "verification": {
+        "ic_name": "",
+        "description": "",
+        "drive_ports": [
+          "S1",
+          "S2",
+          "D0",
+          "D1",
+          "D2",
+          "D3"
+        ],
+        "read_ports": [
+          "Y"
+        ],
+        "truth_table": [
+          {
+            "inputs": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              1
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              0,
+              0,
+              1,
+              0,
+              1
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              0,
+              0,
+              1,
+              1,
+              0
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              0,
+              0,
+              1,
+              1,
+              1
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              0,
+              1,
+              0,
+              0,
+              1
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              0,
+              1,
+              0,
+              1,
+              1
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              0,
+              1,
+              1,
+              0,
+              0
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              0,
+              1,
+              1,
+              0,
+              1
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              1,
+              0,
+              0,
+              1,
+              1
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              1,
+              0,
+              1,
+              0,
+              0
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              1,
+              0,
+              1,
+              0,
+              1
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              1,
+              0,
+              1,
+              1,
+              0
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              1,
+              0,
+              1,
+              1,
+              1
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              1,
+              1,
+              0,
+              0,
+              1
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              1,
+              1,
+              0,
+              1,
+              0
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              1,
+              1,
+              0,
+              1,
+              1
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              1,
+              1,
+              1,
+              0,
+              0
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              1,
+              1,
+              1,
+              0,
+              1
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              1,
+              1,
+              1,
+              1,
+              0
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              1,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              1,
+              0,
+              0,
+              0,
+              1,
+              1
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              1,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              1,
+              0,
+              0,
+              1,
+              0,
+              1
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              1,
+              0,
+              0,
+              1,
+              1,
+              0
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              1,
+              0,
+              0,
+              1,
+              1,
+              1
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              1,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              1,
+              0,
+              1,
+              0,
+              0,
+              1
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              1,
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              1,
+              0,
+              1,
+              0,
+              1,
+              1
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              1,
+              0,
+              1,
+              1,
+              0,
+              0
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              1,
+              0,
+              1,
+              1,
+              0,
+              1
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              1,
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              1,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              1,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              1,
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              1,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              1,
+              1,
+              0,
+              0,
+              1,
+              1
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              1
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              1,
+              1,
+              0,
+              1,
+              1,
+              0
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              1,
+              1,
+              0,
+              1,
+              1,
+              1
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              1,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              1,
+              1,
+              1,
+              0,
+              0,
+              1
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              1,
+              1,
+              1,
+              0,
+              1,
+              0
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              1,
+              1,
+              1,
+              0,
+              1,
+              1
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              1,
+              1,
+              1,
+              1,
+              0,
+              0
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              1,
+              1,
+              1,
+              1,
+              0,
+              1
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              0
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "expected": [
+              0
+            ]
+          }
+        ],
+        "timing": null,
+        "common_errors": []
+      }
+    },
+    {
+      "page_type": "summary",
+      "title": "สรุปผล",
+      "subtitle": null,
+      "ic_label": null,
+      "objectives": null,
+      "body": "สำเร็จแล้วครับ! ผู้เรียนเข้าใจการทำงานของ 4-to-1 Multiplexer ในการเลือกสลับช่องสัญญาณข้อมูลดิจิทัลได้อย่างถูกต้อง",
+      "circuit_screen": null,
+      "circuit_file": null,
+      "hint": null,
+      "inputs": null,
+      "outputs": null,
+      "gate_type": null,
+      "ic": null,
+      "instructions": null,
+      "photo_url": null,
+      "photo_caption": null,
+      "encouragement_icon": null,
+      "encouragement_message": null
+    }
+  ]
+}

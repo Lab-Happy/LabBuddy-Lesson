@@ -1,0 +1,799 @@
+{
+  "version": "1.0",
+  "lesson_id": "editor-20260811",
+  "title": "IC_7411_Lesson",
+  "title_th": "IC_7411_Lesson",
+  "category": "custom",
+  "difficulty": "beginner",
+  "estimated_minutes": 25,
+  "ic": "",
+  "pages": [
+    {
+      "page_type": "cover",
+      "title": "IC 7411 Test",
+      "subtitle": "การทดสอบไอซี 7411",
+      "ic_label": "7411",
+      "objectives": [
+        "ผู้เรียนสามารถอธิบายการทำงานของ AND Gate 3-Inputs ได้",
+        "ผู้เรียนสามารถรถบุตำแหน่งขาของแต่ละเกทใน 7411 และต่อเครื่องวัดได้"
+      ],
+      "body": null,
+      "circuit_screen": null,
+      "circuit_file": null,
+      "hint": null,
+      "inputs": [],
+      "outputs": [],
+      "gate_type": null,
+      "ic": null,
+      "instructions": [],
+      "photo_url": null,
+      "photo_caption": null,
+      "encouragement_icon": null,
+      "encouragement_message": null,
+      "verification": {
+        "ic_name": "",
+        "description": "",
+        "drive_ports": [],
+        "read_ports": [],
+        "truth_table": [],
+        "timing": null,
+        "common_errors": []
+      }
+    },
+    {
+      "page_type": "theory",
+      "title": "ทฤษฎีพื้นฐาน",
+      "subtitle": null,
+      "ic_label": null,
+      "objectives": [],
+      "body": "การทดสอบ IC 7411 ก่อนการใช้งานหรือเมื่อเราสงสัยว่ากรณีที่วงจรทำงานไม่ถูกต้อง อาจจะเกิดจากการเสัยหายของตัวไอซีเองนั้นเป็นสิ่งที่จำเป็น \nประเด็นดังกล่าวใช้เวลาในการทดสอบนานพอสมควร เช่นการยกตัวไอซีออกมาจากวงจร แล้วทดสอบทีละเกท\nLabBuddy มีวงจรที่สามารถจ่ายและวัดสัญญาณลอจิกได้ เราจึงนำมาประยุกต์ใช้ในการตรวจสอบไอซี ได้ ดังวงจรและตารางความจริงในหน้าถัดไป\n",
+      "circuit_screen": null,
+      "circuit_file": null,
+      "hint": null,
+      "inputs": [],
+      "outputs": [],
+      "gate_type": null,
+      "ic": null,
+      "instructions": [],
+      "photo_url": null,
+      "photo_caption": null,
+      "encouragement_icon": null,
+      "encouragement_message": null,
+      "verification": {
+        "ic_name": "",
+        "description": "",
+        "drive_ports": [],
+        "read_ports": [],
+        "truth_table": [],
+        "timing": null,
+        "common_errors": []
+      }
+    },
+    {
+      "page_type": "circuit",
+      "title": "วงจรทดลอง",
+      "subtitle": null,
+      "ic_label": null,
+      "objectives": [],
+      "body": null,
+      "circuit_screen": {
+        "Version": "2.0-2607",
+        "Title": "Converted Circuit",
+        "Description": "coord_mode=raw",
+        "Width": 1000,
+        "Height": 1000,
+        "BackgroundColor": "#FFFFFF",
+        "EmbeddedSymbols": {},
+        "Ports": [],
+        "Wires": [
+          {
+            "Id": "Th0PcXfxTE0xVC8pHIzw-5",
+            "Path": "M 25.00 15.00 L 110.00 40.00",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "Th0PcXfxTE0xVC8pHIzw-2",
+            "TargetId": "Th0PcXfxTE0xVC8pHIzw-1"
+          },
+          {
+            "Id": "Th0PcXfxTE0xVC8pHIzw-6",
+            "Path": "M 25.00 40.00 L 110.00 40.00",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "Th0PcXfxTE0xVC8pHIzw-3",
+            "TargetId": "Th0PcXfxTE0xVC8pHIzw-1"
+          },
+          {
+            "Id": "Th0PcXfxTE0xVC8pHIzw-7",
+            "Path": "M 25.00 65.00 L 110.00 40.00",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "Th0PcXfxTE0xVC8pHIzw-4",
+            "TargetId": "Th0PcXfxTE0xVC8pHIzw-1"
+          },
+          {
+            "Id": "Th0PcXfxTE0xVC8pHIzw-9",
+            "Path": "M 110.00 40.00 L 185.00 40.00",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "Th0PcXfxTE0xVC8pHIzw-1",
+            "TargetId": "Th0PcXfxTE0xVC8pHIzw-8"
+          },
+          {
+            "Id": "Th0PcXfxTE0xVC8pHIzw-37",
+            "Path": "M 25.00 95.00 L 110.00 120.00",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "Th0PcXfxTE0xVC8pHIzw-34",
+            "TargetId": "Th0PcXfxTE0xVC8pHIzw-33"
+          },
+          {
+            "Id": "Th0PcXfxTE0xVC8pHIzw-38",
+            "Path": "M 25.00 120.00 L 110.00 120.00",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "Th0PcXfxTE0xVC8pHIzw-35",
+            "TargetId": "Th0PcXfxTE0xVC8pHIzw-33"
+          },
+          {
+            "Id": "Th0PcXfxTE0xVC8pHIzw-39",
+            "Path": "M 25.00 145.00 L 110.00 120.00",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "Th0PcXfxTE0xVC8pHIzw-36",
+            "TargetId": "Th0PcXfxTE0xVC8pHIzw-33"
+          },
+          {
+            "Id": "Th0PcXfxTE0xVC8pHIzw-41",
+            "Path": "M 110.00 120.00 L 185.00 120.00",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "Th0PcXfxTE0xVC8pHIzw-33",
+            "TargetId": "Th0PcXfxTE0xVC8pHIzw-40"
+          },
+          {
+            "Id": "Th0PcXfxTE0xVC8pHIzw-50",
+            "Path": "M 30.00 175.00 L 115.00 200.00",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "Th0PcXfxTE0xVC8pHIzw-47",
+            "TargetId": "Th0PcXfxTE0xVC8pHIzw-46"
+          },
+          {
+            "Id": "Th0PcXfxTE0xVC8pHIzw-51",
+            "Path": "M 30.00 200.00 L 115.00 200.00",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "Th0PcXfxTE0xVC8pHIzw-48",
+            "TargetId": "Th0PcXfxTE0xVC8pHIzw-46"
+          },
+          {
+            "Id": "Th0PcXfxTE0xVC8pHIzw-52",
+            "Path": "M 30.00 225.00 L 115.00 200.00",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "Th0PcXfxTE0xVC8pHIzw-49",
+            "TargetId": "Th0PcXfxTE0xVC8pHIzw-46"
+          },
+          {
+            "Id": "Th0PcXfxTE0xVC8pHIzw-54",
+            "Path": "M 115.00 200.00 L 190.00 200.00",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "Th0PcXfxTE0xVC8pHIzw-46",
+            "TargetId": "Th0PcXfxTE0xVC8pHIzw-53"
+          }
+        ],
+        "Junctions": [],
+        "Widgets": [
+          {
+            "Id": "Th0PcXfxTE0xVC8pHIzw-1",
+            "Type": "legacy",
+            "X": 60,
+            "Y": 10,
+            "Width": 100,
+            "Height": 60,
+            "Rotation": 0,
+            "SymbolId": "",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "Th0PcXfxTE0xVC8pHIzw-2",
+            "Type": "legacy",
+            "X": 20,
+            "Y": 10,
+            "Width": 10,
+            "Height": 10,
+            "Rotation": 0,
+            "SymbolId": "",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "Th0PcXfxTE0xVC8pHIzw-3",
+            "Type": "legacy",
+            "X": 20,
+            "Y": 35,
+            "Width": 10,
+            "Height": 10,
+            "Rotation": 0,
+            "SymbolId": "",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "Th0PcXfxTE0xVC8pHIzw-4",
+            "Type": "legacy",
+            "X": 20,
+            "Y": 60,
+            "Width": 10,
+            "Height": 10,
+            "Rotation": 0,
+            "SymbolId": "",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "Th0PcXfxTE0xVC8pHIzw-8",
+            "Type": "legacy",
+            "X": 180,
+            "Y": 35,
+            "Width": 10,
+            "Height": 10,
+            "Rotation": 0,
+            "SymbolId": "",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "Th0PcXfxTE0xVC8pHIzw-28",
+            "Type": "legacy",
+            "X": 60,
+            "Y": 260,
+            "Width": 110,
+            "Height": 30,
+            "Rotation": 0,
+            "SymbolId": "VCC = 14, GND = 7",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "Th0PcXfxTE0xVC8pHIzw-29",
+            "Type": "legacy",
+            "X": 0,
+            "Y": 0,
+            "Width": 20,
+            "Height": 30,
+            "Rotation": 0,
+            "SymbolId": "1",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "Th0PcXfxTE0xVC8pHIzw-30",
+            "Type": "legacy",
+            "X": 0,
+            "Y": 25,
+            "Width": 20,
+            "Height": 30,
+            "Rotation": 0,
+            "SymbolId": "2",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "Th0PcXfxTE0xVC8pHIzw-31",
+            "Type": "legacy",
+            "X": 0,
+            "Y": 50,
+            "Width": 20,
+            "Height": 30,
+            "Rotation": 0,
+            "SymbolId": "13",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "Th0PcXfxTE0xVC8pHIzw-32",
+            "Type": "legacy",
+            "X": 190,
+            "Y": 25,
+            "Width": 20,
+            "Height": 30,
+            "Rotation": 0,
+            "SymbolId": "12",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "Th0PcXfxTE0xVC8pHIzw-33",
+            "Type": "legacy",
+            "X": 60,
+            "Y": 90,
+            "Width": 100,
+            "Height": 60,
+            "Rotation": 0,
+            "SymbolId": "",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "Th0PcXfxTE0xVC8pHIzw-34",
+            "Type": "legacy",
+            "X": 20,
+            "Y": 90,
+            "Width": 10,
+            "Height": 10,
+            "Rotation": 0,
+            "SymbolId": "",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "Th0PcXfxTE0xVC8pHIzw-35",
+            "Type": "legacy",
+            "X": 20,
+            "Y": 115,
+            "Width": 10,
+            "Height": 10,
+            "Rotation": 0,
+            "SymbolId": "",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "Th0PcXfxTE0xVC8pHIzw-36",
+            "Type": "legacy",
+            "X": 20,
+            "Y": 140,
+            "Width": 10,
+            "Height": 10,
+            "Rotation": 0,
+            "SymbolId": "",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "Th0PcXfxTE0xVC8pHIzw-40",
+            "Type": "legacy",
+            "X": 180,
+            "Y": 115,
+            "Width": 10,
+            "Height": 10,
+            "Rotation": 0,
+            "SymbolId": "",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "Th0PcXfxTE0xVC8pHIzw-42",
+            "Type": "legacy",
+            "X": 0,
+            "Y": 80,
+            "Width": 20,
+            "Height": 30,
+            "Rotation": 0,
+            "SymbolId": "3",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "Th0PcXfxTE0xVC8pHIzw-43",
+            "Type": "legacy",
+            "X": 0,
+            "Y": 105,
+            "Width": 20,
+            "Height": 30,
+            "Rotation": 0,
+            "SymbolId": "4",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "Th0PcXfxTE0xVC8pHIzw-44",
+            "Type": "legacy",
+            "X": 0,
+            "Y": 130,
+            "Width": 20,
+            "Height": 30,
+            "Rotation": 0,
+            "SymbolId": "5",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "Th0PcXfxTE0xVC8pHIzw-45",
+            "Type": "legacy",
+            "X": 190,
+            "Y": 105,
+            "Width": 20,
+            "Height": 30,
+            "Rotation": 0,
+            "SymbolId": "6",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "Th0PcXfxTE0xVC8pHIzw-46",
+            "Type": "legacy",
+            "X": 65,
+            "Y": 170,
+            "Width": 100,
+            "Height": 60,
+            "Rotation": 0,
+            "SymbolId": "",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "Th0PcXfxTE0xVC8pHIzw-47",
+            "Type": "legacy",
+            "X": 25,
+            "Y": 170,
+            "Width": 10,
+            "Height": 10,
+            "Rotation": 0,
+            "SymbolId": "",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "Th0PcXfxTE0xVC8pHIzw-48",
+            "Type": "legacy",
+            "X": 25,
+            "Y": 195,
+            "Width": 10,
+            "Height": 10,
+            "Rotation": 0,
+            "SymbolId": "",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "Th0PcXfxTE0xVC8pHIzw-49",
+            "Type": "legacy",
+            "X": 25,
+            "Y": 220,
+            "Width": 10,
+            "Height": 10,
+            "Rotation": 0,
+            "SymbolId": "",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "Th0PcXfxTE0xVC8pHIzw-53",
+            "Type": "legacy",
+            "X": 185,
+            "Y": 195,
+            "Width": 10,
+            "Height": 10,
+            "Rotation": 0,
+            "SymbolId": "",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "Th0PcXfxTE0xVC8pHIzw-55",
+            "Type": "legacy",
+            "X": 5,
+            "Y": 160,
+            "Width": 20,
+            "Height": 30,
+            "Rotation": 0,
+            "SymbolId": "9",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "Th0PcXfxTE0xVC8pHIzw-56",
+            "Type": "legacy",
+            "X": 5,
+            "Y": 185,
+            "Width": 20,
+            "Height": 30,
+            "Rotation": 0,
+            "SymbolId": "10",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "Th0PcXfxTE0xVC8pHIzw-57",
+            "Type": "legacy",
+            "X": 5,
+            "Y": 210,
+            "Width": 20,
+            "Height": 30,
+            "Rotation": 0,
+            "SymbolId": "11",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "Th0PcXfxTE0xVC8pHIzw-58",
+            "Type": "legacy",
+            "X": 195,
+            "Y": 185,
+            "Width": 20,
+            "Height": 30,
+            "Rotation": 0,
+            "SymbolId": "8",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          }
+        ]
+      },
+      "circuit_file": null,
+      "hint": "ประกอบวงจรตามรูป เมื่อเสร็จแล้วให้กดปุ่ม Next เพื่อไปหน้าถัดไป",
+      "inputs": [
+        "A0",
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6"
+      ],
+      "outputs": [
+        "Y0",
+        "Y1"
+      ],
+      "gate_type": "AND",
+      "ic": null,
+      "instructions": [],
+      "photo_url": null,
+      "photo_caption": null,
+      "encouragement_icon": null,
+      "encouragement_message": null,
+      "verification": {
+        "ic_name": "",
+        "description": "",
+        "drive_ports": [],
+        "read_ports": [],
+        "truth_table": [],
+        "timing": null,
+        "common_errors": []
+      }
+    },
+    {
+      "page_type": "verify",
+      "title": "ตรวจสอบวงจร",
+      "subtitle": null,
+      "ic_label": null,
+      "objectives": [],
+      "body": null,
+      "circuit_screen": null,
+      "circuit_file": null,
+      "hint": null,
+      "inputs": [],
+      "outputs": [],
+      "gate_type": null,
+      "ic": "7411",
+      "instructions": [
+        "ต่อวงจรให้เสร็จเรียบร้อย (กด Back ไปดูถ้ายังไม่แน่ใจ)",
+        "กดปุ่ม Verify เพื่อตรวจสอบไอซี/วงจรที่อยู่บน protoboard"
+      ],
+      "photo_url": null,
+      "photo_caption": null,
+      "encouragement_icon": null,
+      "encouragement_message": null,
+      "verification": {
+        "ic_name": "",
+        "description": "",
+        "drive_ports": [
+          "pin0",
+          "pin1",
+          "pin2",
+          "pin3",
+          "pin4",
+          "pin5"
+        ],
+        "read_ports": [
+          "pin0",
+          "pin1"
+        ],
+        "truth_table": [
+          {
+            "inputs": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "expected": [
+              0,
+              0
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              0,
+              1,
+              0,
+              0,
+              1
+            ],
+            "expected": [
+              0,
+              0
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "expected": [
+              0,
+              0
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              1,
+              0,
+              0,
+              1,
+              1
+            ],
+            "expected": [
+              0,
+              0
+            ]
+          },
+          {
+            "inputs": [
+              1,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "expected": [
+              0,
+              0
+            ]
+          },
+          {
+            "inputs": [
+              1,
+              0,
+              1,
+              1,
+              0,
+              1
+            ],
+            "expected": [
+              0,
+              0
+            ]
+          },
+          {
+            "inputs": [
+              1,
+              1,
+              0,
+              1,
+              1,
+              0
+            ],
+            "expected": [
+              0,
+              0
+            ]
+          },
+          {
+            "inputs": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "expected": [
+              1,
+              1
+            ]
+          }
+        ],
+        "timing": null,
+        "common_errors": []
+      }
+    },
+    {
+      "page_type": "summary",
+      "title": "สรุปผล",
+      "subtitle": null,
+      "ic_label": null,
+      "objectives": [],
+      "body": "เสร็จแล้วครับ",
+      "circuit_screen": null,
+      "circuit_file": null,
+      "hint": null,
+      "inputs": [],
+      "outputs": [],
+      "gate_type": null,
+      "ic": null,
+      "instructions": [],
+      "photo_url": null,
+      "photo_caption": null,
+      "encouragement_icon": null,
+      "encouragement_message": null,
+      "verification": {
+        "ic_name": "",
+        "description": "",
+        "drive_ports": [],
+        "read_ports": [],
+        "truth_table": [],
+        "timing": null,
+        "common_errors": []
+      }
+    }
+  ]
+}

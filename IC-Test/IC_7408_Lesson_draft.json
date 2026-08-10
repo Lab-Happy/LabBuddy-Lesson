@@ -1,0 +1,1137 @@
+{
+  "version": "1.0",
+  "lesson_id": "editor-20260811",
+  "title": "IC_7408_Lesson",
+  "title_th": "IC_7408_Lesson",
+  "category": "custom",
+  "difficulty": "beginner",
+  "estimated_minutes": 25,
+  "ic": "",
+  "pages": [
+    {
+      "page_type": "cover",
+      "title": "IC 7408 Test",
+      "subtitle": "การทดสอบไอซี 7408",
+      "ic_label": "7402",
+      "objectives": [
+        "ผู้เรียนสามารถอธิบายการทำงานของ AND Gate 2-Inputs ได้",
+        "ผู้เรียนสามารถรถบุตำแหน่งขาของแต่ละเกทใน 7408 และต่อเครื่องวัดได้"
+      ],
+      "body": null,
+      "circuit_screen": null,
+      "circuit_file": null,
+      "hint": null,
+      "inputs": null,
+      "outputs": null,
+      "gate_type": null,
+      "ic": null,
+      "instructions": null,
+      "verification": null,
+      "photo_url": null,
+      "photo_caption": null,
+      "encouragement_icon": null,
+      "encouragement_message": null
+    },
+    {
+      "page_type": "theory",
+      "title": "ทฤษฎีพื้นฐาน",
+      "subtitle": null,
+      "ic_label": null,
+      "objectives": null,
+      "body": "การทดสอบ IC 7408 ก่อนการใช้งานหรือเมื่อเราสงสัยว่ากรณีที่วงจรทำงานไม่ถูกต้อง อาจจะเกิดจากการเสัยหายของตัวไอซีเองนั้นเป็นสิ่งที่จำเป็น \nประเด็นดังกล่าวใช้เวลาในการทดสอบนานพอสมควร เช่นการยกตัวไอซีออกมาจากวงจร แล้วทดสอบทีละเกท\nLabBuddy มีวงจรที่สามารถจ่ายและวัดสัญญาณลอจิกได้ เราจึงนำมาประยุกต์ใช้ในการตรวจสอบไอซี ได้ ดังวงจรและตารางความจริงในหน้าถัดไป\n",
+      "circuit_screen": null,
+      "circuit_file": null,
+      "hint": null,
+      "inputs": null,
+      "outputs": null,
+      "gate_type": null,
+      "ic": null,
+      "instructions": null,
+      "verification": null,
+      "photo_url": null,
+      "photo_caption": null,
+      "encouragement_icon": null,
+      "encouragement_message": null
+    },
+    {
+      "page_type": "circuit",
+      "title": "วงจรทดลอง",
+      "subtitle": null,
+      "ic_label": null,
+      "objectives": null,
+      "body": null,
+      "circuit_screen": {
+        "version": "2.0-2607",
+        "title": "Converted Circuit",
+        "description": "coord_mode=raw",
+        "width": 1000,
+        "height": 1000,
+        "background_color": "#FFFFFF",
+        "embedded_symbols": {
+          "Dynamic_Symbol_581098243": {
+            "id": "Dynamic_Symbol_581098243",
+            "title": "And Gate",
+            "category": "Dynamic",
+            "path_data": "M 129.75 30.25 L 149.75 30.25 M 49.75 15.25 L 69.75 15.25 M 49.75 45.25 L 69.75 45.25 M 69.75 0.25 L 99.75 0.25 C 116.32 0.25 129.75 13.68 129.75 30.25 C 129.75 46.82 116.32 60.25 99.75 60.25 L 69.75 60.25 Z",
+            "view_box": {
+              "x": 0,
+              "y": 0,
+              "width": 100,
+              "height": 60
+            },
+            "raw_svg_content": "<path d=\"M 129.75 30.25 L 149.75 30.25 M 49.75 15.25 L 69.75 15.25 M 49.75 45.25 L 69.75 45.25\" fill=\"none\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\" style=\"stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" /><path d=\"M 69.75 0.25 L 99.75 0.25 C 116.32 0.25 129.75 13.68 129.75 30.25 C 129.75 46.82 116.32 60.25 99.75 60.25 L 69.75 60.25 Z\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\" style=\"fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" />",
+            "pins": null,
+            "description": "Generated dynamically from draw.io SVG element payload",
+            "text_labels": null
+          },
+          "Dynamic_Symbol_275744799": {
+            "id": "Dynamic_Symbol_275744799",
+            "title": "Component",
+            "category": "Dynamic",
+            "path_data": "M -0.25,0.25 H 19.75 V 30.25 H -0.25 Z",
+            "view_box": {
+              "x": 0,
+              "y": 0,
+              "width": 20,
+              "height": 30
+            },
+            "raw_svg_content": "<rect x=\"-0.25\" y=\"0.25\" width=\"20\" height=\"30\" fill=\"none\" stroke=\"none\" pointer-events=\"all\" /><text x=\"10\" y=\"19\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\" style=\"fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">1</text>",
+            "pins": null,
+            "description": "Generated dynamically from draw.io SVG element payload",
+            "text_labels": null
+          },
+          "Dynamic_Symbol_865038982": {
+            "id": "Dynamic_Symbol_865038982",
+            "title": "Component",
+            "category": "Dynamic",
+            "path_data": "M -0.25,30.25 H 19.75 V 60.25 H -0.25 Z",
+            "view_box": {
+              "x": 0,
+              "y": 0,
+              "width": 20,
+              "height": 30
+            },
+            "raw_svg_content": "<rect x=\"-0.25\" y=\"30.25\" width=\"20\" height=\"30\" fill=\"none\" stroke=\"none\" pointer-events=\"all\" /><text x=\"10\" y=\"49\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\" style=\"fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">2</text>",
+            "pins": null,
+            "description": "Generated dynamically from draw.io SVG element payload",
+            "text_labels": null
+          },
+          "Dynamic_Symbol_1203775943": {
+            "id": "Dynamic_Symbol_1203775943",
+            "title": "Component",
+            "category": "Dynamic",
+            "path_data": "M 179.75,15.25 H 199.75 V 45.25 H 179.75 Z",
+            "view_box": {
+              "x": 0,
+              "y": 0,
+              "width": 20,
+              "height": 30
+            },
+            "raw_svg_content": "<rect x=\"179.75\" y=\"15.25\" width=\"20\" height=\"30\" fill=\"none\" stroke=\"none\" pointer-events=\"all\" /><text x=\"190\" y=\"34\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\" style=\"fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">3</text>",
+            "pins": null,
+            "description": "Generated dynamically from draw.io SVG element payload",
+            "text_labels": null
+          },
+          "Dynamic_Symbol_50367824": {
+            "id": "Dynamic_Symbol_50367824",
+            "title": "And Gate",
+            "category": "Dynamic",
+            "path_data": "M 129.75 110.25 L 149.75 110.25 M 49.75 95.25 L 69.75 95.25 M 49.75 125.25 L 69.75 125.25 M 69.75 80.25 L 99.75 80.25 C 116.32 80.25 129.75 93.68 129.75 110.25 C 129.75 126.82 116.32 140.25 99.75 140.25 L 69.75 140.25 Z",
+            "view_box": {
+              "x": 0,
+              "y": 0,
+              "width": 100,
+              "height": 60
+            },
+            "raw_svg_content": "<path d=\"M 129.75 110.25 L 149.75 110.25 M 49.75 95.25 L 69.75 95.25 M 49.75 125.25 L 69.75 125.25\" fill=\"none\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\" style=\"stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" /><path d=\"M 69.75 80.25 L 99.75 80.25 C 116.32 80.25 129.75 93.68 129.75 110.25 C 129.75 126.82 116.32 140.25 99.75 140.25 L 69.75 140.25 Z\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\" style=\"fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" />",
+            "pins": null,
+            "description": "Generated dynamically from draw.io SVG element payload",
+            "text_labels": null
+          },
+          "Dynamic_Symbol_1996663766": {
+            "id": "Dynamic_Symbol_1996663766",
+            "title": "Component",
+            "category": "Dynamic",
+            "path_data": "M -0.25,80.25 H 19.75 V 110.25 H -0.25 Z",
+            "view_box": {
+              "x": 0,
+              "y": 0,
+              "width": 20,
+              "height": 30
+            },
+            "raw_svg_content": "<rect x=\"-0.25\" y=\"80.25\" width=\"20\" height=\"30\" fill=\"none\" stroke=\"none\" pointer-events=\"all\" /><text x=\"10\" y=\"99\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\" style=\"fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">4</text>",
+            "pins": null,
+            "description": "Generated dynamically from draw.io SVG element payload",
+            "text_labels": null
+          },
+          "Dynamic_Symbol_1112150151": {
+            "id": "Dynamic_Symbol_1112150151",
+            "title": "Component",
+            "category": "Dynamic",
+            "path_data": "M -0.25,110.25 H 19.75 V 140.25 H -0.25 Z",
+            "view_box": {
+              "x": 0,
+              "y": 0,
+              "width": 20,
+              "height": 30
+            },
+            "raw_svg_content": "<rect x=\"-0.25\" y=\"110.25\" width=\"20\" height=\"30\" fill=\"none\" stroke=\"none\" pointer-events=\"all\" /><text x=\"10\" y=\"129\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\" style=\"fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">5</text>",
+            "pins": null,
+            "description": "Generated dynamically from draw.io SVG element payload",
+            "text_labels": null
+          },
+          "Dynamic_Symbol_1826059508": {
+            "id": "Dynamic_Symbol_1826059508",
+            "title": "Component",
+            "category": "Dynamic",
+            "path_data": "M 179.75,95.25 H 199.75 V 125.25 H 179.75 Z",
+            "view_box": {
+              "x": 0,
+              "y": 0,
+              "width": 20,
+              "height": 30
+            },
+            "raw_svg_content": "<rect x=\"179.75\" y=\"95.25\" width=\"20\" height=\"30\" fill=\"none\" stroke=\"none\" pointer-events=\"all\" /><text x=\"190\" y=\"114\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\" style=\"fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">6</text>",
+            "pins": null,
+            "description": "Generated dynamically from draw.io SVG element payload",
+            "text_labels": null
+          },
+          "Dynamic_Symbol_803545321": {
+            "id": "Dynamic_Symbol_803545321",
+            "title": "And Gate",
+            "category": "Dynamic",
+            "path_data": "M 349.75 30.25 L 369.75 30.25 M 269.75 15.25 L 289.75 15.25 M 269.75 45.25 L 289.75 45.25 M 289.75 0.25 L 319.75 0.25 C 336.32 0.25 349.75 13.68 349.75 30.25 C 349.75 46.82 336.32 60.25 319.75 60.25 L 289.75 60.25 Z",
+            "view_box": {
+              "x": 0,
+              "y": 0,
+              "width": 100,
+              "height": 60
+            },
+            "raw_svg_content": "<path d=\"M 349.75 30.25 L 369.75 30.25 M 269.75 15.25 L 289.75 15.25 M 269.75 45.25 L 289.75 45.25\" fill=\"none\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\" style=\"stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" /><path d=\"M 289.75 0.25 L 319.75 0.25 C 336.32 0.25 349.75 13.68 349.75 30.25 C 349.75 46.82 336.32 60.25 319.75 60.25 L 289.75 60.25 Z\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\" style=\"fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" />",
+            "pins": null,
+            "description": "Generated dynamically from draw.io SVG element payload",
+            "text_labels": null
+          },
+          "Dynamic_Symbol_816541723": {
+            "id": "Dynamic_Symbol_816541723",
+            "title": "Component",
+            "category": "Dynamic",
+            "path_data": "M 219.75,0.25 H 239.75 V 30.25 H 219.75 Z",
+            "view_box": {
+              "x": 0,
+              "y": 0,
+              "width": 20,
+              "height": 30
+            },
+            "raw_svg_content": "<rect x=\"219.75\" y=\"0.25\" width=\"20\" height=\"30\" fill=\"none\" stroke=\"none\" pointer-events=\"all\" /><text x=\"230\" y=\"19\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\" style=\"fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">9</text>",
+            "pins": null,
+            "description": "Generated dynamically from draw.io SVG element payload",
+            "text_labels": null
+          },
+          "Dynamic_Symbol_1978693470": {
+            "id": "Dynamic_Symbol_1978693470",
+            "title": "Component",
+            "category": "Dynamic",
+            "path_data": "M 219.75,30.25 H 239.75 V 60.25 H 219.75 Z",
+            "view_box": {
+              "x": 0,
+              "y": 0,
+              "width": 20,
+              "height": 30
+            },
+            "raw_svg_content": "<rect x=\"219.75\" y=\"30.25\" width=\"20\" height=\"30\" fill=\"none\" stroke=\"none\" pointer-events=\"all\" /><text x=\"230\" y=\"49\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\" style=\"fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">10</text>",
+            "pins": null,
+            "description": "Generated dynamically from draw.io SVG element payload",
+            "text_labels": null
+          },
+          "Dynamic_Symbol_348867706": {
+            "id": "Dynamic_Symbol_348867706",
+            "title": "Component",
+            "category": "Dynamic",
+            "path_data": "M 399.75,15.25 H 419.75 V 45.25 H 399.75 Z",
+            "view_box": {
+              "x": 0,
+              "y": 0,
+              "width": 20,
+              "height": 30
+            },
+            "raw_svg_content": "<rect x=\"399.75\" y=\"15.25\" width=\"20\" height=\"30\" fill=\"none\" stroke=\"none\" pointer-events=\"all\" /><text x=\"410\" y=\"34\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\" style=\"fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">8</text>",
+            "pins": null,
+            "description": "Generated dynamically from draw.io SVG element payload",
+            "text_labels": null
+          },
+          "Dynamic_Symbol_1789519524": {
+            "id": "Dynamic_Symbol_1789519524",
+            "title": "And Gate",
+            "category": "Dynamic",
+            "path_data": "M 349.75 110.25 L 369.75 110.25 M 269.75 95.25 L 289.75 95.25 M 269.75 125.25 L 289.75 125.25 M 289.75 80.25 L 319.75 80.25 C 336.32 80.25 349.75 93.68 349.75 110.25 C 349.75 126.82 336.32 140.25 319.75 140.25 L 289.75 140.25 Z",
+            "view_box": {
+              "x": 0,
+              "y": 0,
+              "width": 100,
+              "height": 60
+            },
+            "raw_svg_content": "<path d=\"M 349.75 110.25 L 369.75 110.25 M 269.75 95.25 L 289.75 95.25 M 269.75 125.25 L 289.75 125.25\" fill=\"none\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\" style=\"stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" /><path d=\"M 289.75 80.25 L 319.75 80.25 C 336.32 80.25 349.75 93.68 349.75 110.25 C 349.75 126.82 336.32 140.25 319.75 140.25 L 289.75 140.25 Z\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\" style=\"fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" />",
+            "pins": null,
+            "description": "Generated dynamically from draw.io SVG element payload",
+            "text_labels": null
+          },
+          "Dynamic_Symbol_306072168": {
+            "id": "Dynamic_Symbol_306072168",
+            "title": "Component",
+            "category": "Dynamic",
+            "path_data": "M 219.75,80.25 H 239.75 V 110.25 H 219.75 Z",
+            "view_box": {
+              "x": 0,
+              "y": 0,
+              "width": 20,
+              "height": 30
+            },
+            "raw_svg_content": "<rect x=\"219.75\" y=\"80.25\" width=\"20\" height=\"30\" fill=\"none\" stroke=\"none\" pointer-events=\"all\" /><text x=\"230\" y=\"99\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\" style=\"fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">12</text>",
+            "pins": null,
+            "description": "Generated dynamically from draw.io SVG element payload",
+            "text_labels": null
+          },
+          "Dynamic_Symbol_525624965": {
+            "id": "Dynamic_Symbol_525624965",
+            "title": "Component",
+            "category": "Dynamic",
+            "path_data": "M 219.75,110.25 H 239.75 V 140.25 H 219.75 Z",
+            "view_box": {
+              "x": 0,
+              "y": 0,
+              "width": 20,
+              "height": 30
+            },
+            "raw_svg_content": "<rect x=\"219.75\" y=\"110.25\" width=\"20\" height=\"30\" fill=\"none\" stroke=\"none\" pointer-events=\"all\" /><text x=\"230\" y=\"129\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\" style=\"fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">13</text>",
+            "pins": null,
+            "description": "Generated dynamically from draw.io SVG element payload",
+            "text_labels": null
+          },
+          "Dynamic_Symbol_745893543": {
+            "id": "Dynamic_Symbol_745893543",
+            "title": "Component",
+            "category": "Dynamic",
+            "path_data": "M 399.75,95.25 H 419.75 V 125.25 H 399.75 Z",
+            "view_box": {
+              "x": 0,
+              "y": 0,
+              "width": 20,
+              "height": 30
+            },
+            "raw_svg_content": "<rect x=\"399.75\" y=\"95.25\" width=\"20\" height=\"30\" fill=\"none\" stroke=\"none\" pointer-events=\"all\" /><text x=\"410\" y=\"114\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\" style=\"fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">11</text>",
+            "pins": null,
+            "description": "Generated dynamically from draw.io SVG element payload",
+            "text_labels": null
+          }
+        },
+        "ports": [
+          {
+            "id": "qhx0NInS2xUgI2R9R2fY-3",
+            "type": "input",
+            "x": 25,
+            "y": 45,
+            "radius": 5,
+            "label": null,
+            "label_position": null,
+            "direction": null
+          },
+          {
+            "id": "qhx0NInS2xUgI2R9R2fY-4",
+            "type": "input",
+            "x": 25,
+            "y": 15,
+            "radius": 5,
+            "label": null,
+            "label_position": null,
+            "direction": null
+          },
+          {
+            "id": "qhx0NInS2xUgI2R9R2fY-5",
+            "type": "output",
+            "x": 175,
+            "y": 30,
+            "radius": 5,
+            "label": null,
+            "label_position": null,
+            "direction": null
+          },
+          {
+            "id": "qhx0NInS2xUgI2R9R2fY-14",
+            "type": "input",
+            "x": 25,
+            "y": 125,
+            "radius": 5,
+            "label": null,
+            "label_position": null,
+            "direction": null
+          },
+          {
+            "id": "qhx0NInS2xUgI2R9R2fY-15",
+            "type": "input",
+            "x": 25,
+            "y": 95,
+            "radius": 5,
+            "label": null,
+            "label_position": null,
+            "direction": null
+          },
+          {
+            "id": "qhx0NInS2xUgI2R9R2fY-16",
+            "type": "output",
+            "x": 175,
+            "y": 110,
+            "radius": 5,
+            "label": null,
+            "label_position": null,
+            "direction": null
+          },
+          {
+            "id": "qhx0NInS2xUgI2R9R2fY-24",
+            "type": "input",
+            "x": 245,
+            "y": 45,
+            "radius": 5,
+            "label": null,
+            "label_position": null,
+            "direction": null
+          },
+          {
+            "id": "qhx0NInS2xUgI2R9R2fY-25",
+            "type": "input",
+            "x": 245,
+            "y": 15,
+            "radius": 5,
+            "label": null,
+            "label_position": null,
+            "direction": null
+          },
+          {
+            "id": "qhx0NInS2xUgI2R9R2fY-26",
+            "type": "output",
+            "x": 395,
+            "y": 30,
+            "radius": 5,
+            "label": null,
+            "label_position": null,
+            "direction": null
+          },
+          {
+            "id": "qhx0NInS2xUgI2R9R2fY-34",
+            "type": "input",
+            "x": 245,
+            "y": 125,
+            "radius": 5,
+            "label": null,
+            "label_position": null,
+            "direction": null
+          },
+          {
+            "id": "qhx0NInS2xUgI2R9R2fY-35",
+            "type": "input",
+            "x": 245,
+            "y": 95,
+            "radius": 5,
+            "label": null,
+            "label_position": null,
+            "direction": null
+          },
+          {
+            "id": "qhx0NInS2xUgI2R9R2fY-36",
+            "type": "output",
+            "x": 395,
+            "y": 110,
+            "radius": 5,
+            "label": null,
+            "label_position": null,
+            "direction": null
+          }
+        ],
+        "wires": [
+          {
+            "id": "qhx0NInS2xUgI2R9R2fY-8",
+            "path": "M 25.00 15.00 L 49.75 15.25",
+            "stroke_width": 2,
+            "color": "#2C3E50",
+            "source_id": "qhx0NInS2xUgI2R9R2fY-4",
+            "target_id": "qhx0NInS2xUgI2R9R2fY-2",
+            "logic_state": null
+          },
+          {
+            "id": "qhx0NInS2xUgI2R9R2fY-9",
+            "path": "M 25.00 45.00 L 49.75 45.25",
+            "stroke_width": 2,
+            "color": "#2C3E50",
+            "source_id": "qhx0NInS2xUgI2R9R2fY-3",
+            "target_id": "qhx0NInS2xUgI2R9R2fY-2",
+            "logic_state": null
+          },
+          {
+            "id": "qhx0NInS2xUgI2R9R2fY-10",
+            "path": "M 149.75 30.25 L 175.00 30.00",
+            "stroke_width": 2,
+            "color": "#2C3E50",
+            "source_id": "qhx0NInS2xUgI2R9R2fY-2",
+            "target_id": "qhx0NInS2xUgI2R9R2fY-5",
+            "logic_state": null
+          },
+          {
+            "id": "qhx0NInS2xUgI2R9R2fY-19",
+            "path": "M 25.00 95.00 L 49.75 95.25",
+            "stroke_width": 2,
+            "color": "#2C3E50",
+            "source_id": "qhx0NInS2xUgI2R9R2fY-15",
+            "target_id": "qhx0NInS2xUgI2R9R2fY-13",
+            "logic_state": null
+          },
+          {
+            "id": "qhx0NInS2xUgI2R9R2fY-20",
+            "path": "M 25.00 125.00 L 49.75 125.25",
+            "stroke_width": 2,
+            "color": "#2C3E50",
+            "source_id": "qhx0NInS2xUgI2R9R2fY-14",
+            "target_id": "qhx0NInS2xUgI2R9R2fY-13",
+            "logic_state": null
+          },
+          {
+            "id": "qhx0NInS2xUgI2R9R2fY-21",
+            "path": "M 149.75 110.25 L 175.00 110.00",
+            "stroke_width": 2,
+            "color": "#2C3E50",
+            "source_id": "qhx0NInS2xUgI2R9R2fY-13",
+            "target_id": "qhx0NInS2xUgI2R9R2fY-16",
+            "logic_state": null
+          },
+          {
+            "id": "qhx0NInS2xUgI2R9R2fY-29",
+            "path": "M 245.00 15.00 L 269.75 15.25",
+            "stroke_width": 2,
+            "color": "#2C3E50",
+            "source_id": "qhx0NInS2xUgI2R9R2fY-25",
+            "target_id": "qhx0NInS2xUgI2R9R2fY-23",
+            "logic_state": null
+          },
+          {
+            "id": "qhx0NInS2xUgI2R9R2fY-30",
+            "path": "M 245.00 45.00 L 269.75 45.25",
+            "stroke_width": 2,
+            "color": "#2C3E50",
+            "source_id": "qhx0NInS2xUgI2R9R2fY-24",
+            "target_id": "qhx0NInS2xUgI2R9R2fY-23",
+            "logic_state": null
+          },
+          {
+            "id": "qhx0NInS2xUgI2R9R2fY-31",
+            "path": "M 369.75 30.25 L 395.00 30.00",
+            "stroke_width": 2,
+            "color": "#2C3E50",
+            "source_id": "qhx0NInS2xUgI2R9R2fY-23",
+            "target_id": "qhx0NInS2xUgI2R9R2fY-26",
+            "logic_state": null
+          },
+          {
+            "id": "qhx0NInS2xUgI2R9R2fY-39",
+            "path": "M 245.00 95.00 L 269.75 95.25",
+            "stroke_width": 2,
+            "color": "#2C3E50",
+            "source_id": "qhx0NInS2xUgI2R9R2fY-35",
+            "target_id": "qhx0NInS2xUgI2R9R2fY-33",
+            "logic_state": null
+          },
+          {
+            "id": "qhx0NInS2xUgI2R9R2fY-40",
+            "path": "M 245.00 125.00 L 269.75 125.25",
+            "stroke_width": 2,
+            "color": "#2C3E50",
+            "source_id": "qhx0NInS2xUgI2R9R2fY-34",
+            "target_id": "qhx0NInS2xUgI2R9R2fY-33",
+            "logic_state": null
+          },
+          {
+            "id": "qhx0NInS2xUgI2R9R2fY-41",
+            "path": "M 369.75 110.25 L 395.00 110.00",
+            "stroke_width": 2,
+            "color": "#2C3E50",
+            "source_id": "qhx0NInS2xUgI2R9R2fY-33",
+            "target_id": "qhx0NInS2xUgI2R9R2fY-36",
+            "logic_state": null
+          }
+        ],
+        "junctions": [],
+        "widgets": [
+          {
+            "id": "qhx0NInS2xUgI2R9R2fY-2",
+            "type": "svgSymbol",
+            "x": 50,
+            "y": 0,
+            "width": 100,
+            "height": 60,
+            "rotation": 0,
+            "symbol_id": "Dynamic_Symbol_581098243",
+            "raw_group_content": "",
+            "fill": null,
+            "stroke": "#2C3E50",
+            "stroke_width": 2,
+            "scale": 1
+          },
+          {
+            "id": "qhx0NInS2xUgI2R9R2fY-6",
+            "type": "svgSymbol",
+            "x": 0,
+            "y": 0,
+            "width": 20,
+            "height": 30,
+            "rotation": 0,
+            "symbol_id": "Dynamic_Symbol_275744799",
+            "raw_group_content": "",
+            "fill": null,
+            "stroke": "#2C3E50",
+            "stroke_width": 2,
+            "scale": 1
+          },
+          {
+            "id": "qhx0NInS2xUgI2R9R2fY-7",
+            "type": "svgSymbol",
+            "x": 0,
+            "y": 30,
+            "width": 20,
+            "height": 30,
+            "rotation": 0,
+            "symbol_id": "Dynamic_Symbol_865038982",
+            "raw_group_content": "",
+            "fill": null,
+            "stroke": "#2C3E50",
+            "stroke_width": 2,
+            "scale": 1
+          },
+          {
+            "id": "qhx0NInS2xUgI2R9R2fY-12",
+            "type": "svgSymbol",
+            "x": 180,
+            "y": 15,
+            "width": 20,
+            "height": 30,
+            "rotation": 0,
+            "symbol_id": "Dynamic_Symbol_1203775943",
+            "raw_group_content": "",
+            "fill": null,
+            "stroke": "#2C3E50",
+            "stroke_width": 2,
+            "scale": 1
+          },
+          {
+            "id": "qhx0NInS2xUgI2R9R2fY-13",
+            "type": "svgSymbol",
+            "x": 50,
+            "y": 80,
+            "width": 100,
+            "height": 60,
+            "rotation": 0,
+            "symbol_id": "Dynamic_Symbol_50367824",
+            "raw_group_content": "",
+            "fill": null,
+            "stroke": "#2C3E50",
+            "stroke_width": 2,
+            "scale": 1
+          },
+          {
+            "id": "qhx0NInS2xUgI2R9R2fY-17",
+            "type": "svgSymbol",
+            "x": 0,
+            "y": 80,
+            "width": 20,
+            "height": 30,
+            "rotation": 0,
+            "symbol_id": "Dynamic_Symbol_1996663766",
+            "raw_group_content": "",
+            "fill": null,
+            "stroke": "#2C3E50",
+            "stroke_width": 2,
+            "scale": 1
+          },
+          {
+            "id": "qhx0NInS2xUgI2R9R2fY-18",
+            "type": "svgSymbol",
+            "x": 0,
+            "y": 110,
+            "width": 20,
+            "height": 30,
+            "rotation": 0,
+            "symbol_id": "Dynamic_Symbol_1112150151",
+            "raw_group_content": "",
+            "fill": null,
+            "stroke": "#2C3E50",
+            "stroke_width": 2,
+            "scale": 1
+          },
+          {
+            "id": "qhx0NInS2xUgI2R9R2fY-22",
+            "type": "svgSymbol",
+            "x": 180,
+            "y": 95,
+            "width": 20,
+            "height": 30,
+            "rotation": 0,
+            "symbol_id": "Dynamic_Symbol_1826059508",
+            "raw_group_content": "",
+            "fill": null,
+            "stroke": "#2C3E50",
+            "stroke_width": 2,
+            "scale": 1
+          },
+          {
+            "id": "qhx0NInS2xUgI2R9R2fY-23",
+            "type": "svgSymbol",
+            "x": 270,
+            "y": 0,
+            "width": 100,
+            "height": 60,
+            "rotation": 0,
+            "symbol_id": "Dynamic_Symbol_803545321",
+            "raw_group_content": "",
+            "fill": null,
+            "stroke": "#2C3E50",
+            "stroke_width": 2,
+            "scale": 1
+          },
+          {
+            "id": "qhx0NInS2xUgI2R9R2fY-27",
+            "type": "svgSymbol",
+            "x": 220,
+            "y": 0,
+            "width": 20,
+            "height": 30,
+            "rotation": 0,
+            "symbol_id": "Dynamic_Symbol_816541723",
+            "raw_group_content": "",
+            "fill": null,
+            "stroke": "#2C3E50",
+            "stroke_width": 2,
+            "scale": 1
+          },
+          {
+            "id": "qhx0NInS2xUgI2R9R2fY-28",
+            "type": "svgSymbol",
+            "x": 220,
+            "y": 30,
+            "width": 20,
+            "height": 30,
+            "rotation": 0,
+            "symbol_id": "Dynamic_Symbol_1978693470",
+            "raw_group_content": "",
+            "fill": null,
+            "stroke": "#2C3E50",
+            "stroke_width": 2,
+            "scale": 1
+          },
+          {
+            "id": "qhx0NInS2xUgI2R9R2fY-32",
+            "type": "svgSymbol",
+            "x": 400,
+            "y": 15,
+            "width": 20,
+            "height": 30,
+            "rotation": 0,
+            "symbol_id": "Dynamic_Symbol_348867706",
+            "raw_group_content": "",
+            "fill": null,
+            "stroke": "#2C3E50",
+            "stroke_width": 2,
+            "scale": 1
+          },
+          {
+            "id": "qhx0NInS2xUgI2R9R2fY-33",
+            "type": "svgSymbol",
+            "x": 270,
+            "y": 80,
+            "width": 100,
+            "height": 60,
+            "rotation": 0,
+            "symbol_id": "Dynamic_Symbol_1789519524",
+            "raw_group_content": "",
+            "fill": null,
+            "stroke": "#2C3E50",
+            "stroke_width": 2,
+            "scale": 1
+          },
+          {
+            "id": "qhx0NInS2xUgI2R9R2fY-37",
+            "type": "svgSymbol",
+            "x": 220,
+            "y": 80,
+            "width": 20,
+            "height": 30,
+            "rotation": 0,
+            "symbol_id": "Dynamic_Symbol_306072168",
+            "raw_group_content": "",
+            "fill": null,
+            "stroke": "#2C3E50",
+            "stroke_width": 2,
+            "scale": 1
+          },
+          {
+            "id": "qhx0NInS2xUgI2R9R2fY-38",
+            "type": "svgSymbol",
+            "x": 220,
+            "y": 110,
+            "width": 20,
+            "height": 30,
+            "rotation": 0,
+            "symbol_id": "Dynamic_Symbol_525624965",
+            "raw_group_content": "",
+            "fill": null,
+            "stroke": "#2C3E50",
+            "stroke_width": 2,
+            "scale": 1
+          },
+          {
+            "id": "qhx0NInS2xUgI2R9R2fY-42",
+            "type": "svgSymbol",
+            "x": 400,
+            "y": 95,
+            "width": 20,
+            "height": 30,
+            "rotation": 0,
+            "symbol_id": "Dynamic_Symbol_745893543",
+            "raw_group_content": "",
+            "fill": null,
+            "stroke": "#2C3E50",
+            "stroke_width": 2,
+            "scale": 1
+          }
+        ],
+        "verification": null
+      },
+      "circuit_file": "circuits/IC_7408_circuit.json",
+      "hint": "ประกอบวงจรตามรูป เมื่อเสร็จแล้วให้กดปุ่ม Nect เพื่อไปหน้าถัดไป",
+      "inputs": [
+        "A0",
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7"
+      ],
+      "outputs": [
+        "Y0",
+        "Y1",
+        "Y2",
+        "Y3"
+      ],
+      "gate_type": "AND",
+      "ic": null,
+      "instructions": null,
+      "verification": null,
+      "photo_url": null,
+      "photo_caption": null,
+      "encouragement_icon": null,
+      "encouragement_message": null
+    },
+    {
+      "page_type": "verify",
+      "title": "ตรวจสอบวงจร",
+      "subtitle": null,
+      "ic_label": null,
+      "objectives": null,
+      "body": null,
+      "circuit_screen": null,
+      "circuit_file": null,
+      "hint": null,
+      "inputs": null,
+      "outputs": null,
+      "gate_type": null,
+      "ic": "7400",
+      "instructions": [
+        "ต่อวงจรให้เสร็จเรียบร้อย (กด Back ไปดูถ้ายังไม่แน่ใจ)",
+        "กดปุ่ม Verify เพื่อตรวจสอบไอซี/วงจรที่อยู่บน protoboard"
+      ],
+      "verification": {
+        "ic_name": "",
+        "description": "",
+        "drive_ports": [
+          "pin0",
+          "pin1",
+          "pin2",
+          "pin3",
+          "pin4",
+          "pin5",
+          "pin6",
+          "pin7"
+        ],
+        "read_ports": [
+          "pin0",
+          "pin1",
+          "pin2",
+          "pin3"
+        ],
+        "truth_table": [
+          {
+            "inputs": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "expected": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "expected": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "expected": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1
+            ],
+            "expected": [
+              0,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "expected": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            "expected": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              0,
+              0
+            ],
+            "expected": [
+              0,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "expected": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "expected": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "expected": [
+              0,
+              1,
+              0,
+              0
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "expected": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "inputs": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "expected": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "inputs": [
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "expected": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "timing": null,
+        "common_errors": [],
+        "fault_cases": [],
+        "lesson_steps": []
+      },
+      "photo_url": null,
+      "photo_caption": null,
+      "encouragement_icon": null,
+      "encouragement_message": null
+    },
+    {
+      "page_type": "summary",
+      "title": "สรุปผล",
+      "subtitle": null,
+      "ic_label": null,
+      "objectives": null,
+      "body": "เสร็จแล้วครับ",
+      "circuit_screen": null,
+      "circuit_file": null,
+      "hint": null,
+      "inputs": null,
+      "outputs": null,
+      "gate_type": null,
+      "ic": null,
+      "instructions": null,
+      "verification": null,
+      "photo_url": null,
+      "photo_caption": null,
+      "encouragement_icon": null,
+      "encouragement_message": null
+    }
+  ]
+}

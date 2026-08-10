@@ -1,0 +1,321 @@
+{
+  "version": "2.0-2607",
+  "title": "Converted Circuit",
+  "description": "coord_mode=raw",
+  "width": 1000,
+  "height": 1000,
+  "backgroundColor": "#FFFFFF",
+  "embeddedSymbols": {
+    "Dynamic_Symbol_717403347": {
+      "id": "Dynamic_Symbol_717403347",
+      "title": "Component",
+      "category": "Dynamic",
+      "pathData": "M 298.6,55.05 H 318.6 V 85.05 H 298.6 Z",
+      "viewBox": {
+        "x": 0,
+        "y": 0,
+        "width": 20,
+        "height": 30
+      },
+      "rawSvgContent": "\u003Crect x=\u0022298.6\u0022 y=\u002255.05\u0022 width=\u002220\u0022 height=\u002230\u0022 fill=\u0022none\u0022 stroke=\u0022none\u0022 pointer-events=\u0022all\u0022 /\u003E\u003Ctext x=\u0022309\u0022 y=\u002274\u0022 fill=\u0022#000000\u0022 font-family=\u0022Helvetica\u0022 font-size=\u002212px\u0022 text-anchor=\u0022middle\u0022 style=\u0022fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\u0022\u003EY\u003C/text\u003E",
+      "pins": null,
+      "description": "Generated dynamically from draw.io SVG element payload",
+      "textLabels": [
+        {
+          "id": "c6df49b5-82fc-42b1-9c7b-fa2000f1afa7",
+          "text": "Y",
+          "x": 309,
+          "y": 74,
+          "rotation": null
+        }
+      ]
+    },
+    "Dynamic_Symbol_1525646727": {
+      "id": "Dynamic_Symbol_1525646727",
+      "title": "And Gate",
+      "category": "Dynamic",
+      "pathData": "M 129.6 30.05 L 149.6 30.05 M 49.6 15.05 L 69.6 15.05 M 49.6 45.05 L 69.6 45.05 M 69.6 0.05 L 99.6 0.05 C 116.17 0.05 129.6 13.48 129.6 30.05 C 129.6 46.62 116.17 60.05 99.6 60.05 L 69.6 60.05 Z",
+      "viewBox": {
+        "x": 0,
+        "y": 0,
+        "width": 100,
+        "height": 60
+      },
+      "rawSvgContent": "\u003Cpath d=\u0022M 129.6 30.05 L 149.6 30.05 M 49.6 15.05 L 69.6 15.05 M 49.6 45.05 L 69.6 45.05\u0022 fill=\u0022none\u0022 stroke=\u0022#000000\u0022 stroke-miterlimit=\u002210\u0022 pointer-events=\u0022all\u0022 style=\u0022stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\u0022 /\u003E\u003Cpath d=\u0022M 69.6 0.05 L 99.6 0.05 C 116.17 0.05 129.6 13.48 129.6 30.05 C 129.6 46.62 116.17 60.05 99.6 60.05 L 69.6 60.05 Z\u0022 fill=\u0022#ffffff\u0022 stroke=\u0022#000000\u0022 stroke-miterlimit=\u002210\u0022 pointer-events=\u0022all\u0022 style=\u0022fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\u0022 /\u003E\u003Cellipse cx=\u0022133.35\u0022 cy=\u002230.05\u0022 rx=\u00223.75\u0022 ry=\u00223.75\u0022 fill=\u0022#ffffff\u0022 stroke=\u0022#000000\u0022 pointer-events=\u0022all\u0022 style=\u0022fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\u0022 /\u003E",
+      "pins": null,
+      "description": "Generated dynamically from draw.io SVG element payload",
+      "textLabels": []
+    },
+    "Dynamic_Symbol_1549402055": {
+      "id": "Dynamic_Symbol_1549402055",
+      "title": "Component",
+      "category": "Dynamic",
+      "pathData": "M -0.4,15.05 H 14.6 V 45.05 H -0.4 Z",
+      "viewBox": {
+        "x": 0,
+        "y": 0,
+        "width": 15,
+        "height": 30
+      },
+      "rawSvgContent": "\u003Crect x=\u0022-0.4\u0022 y=\u002215.05\u0022 width=\u002215\u0022 height=\u002230\u0022 fill=\u0022none\u0022 stroke=\u0022none\u0022 pointer-events=\u0022all\u0022 /\u003E\u003Ctext x=\u00227\u0022 y=\u002234\u0022 fill=\u0022#000000\u0022 font-family=\u0022Helvetica\u0022 font-size=\u002212px\u0022 text-anchor=\u0022middle\u0022 style=\u0022fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\u0022\u003EA\u003C/text\u003E",
+      "pins": null,
+      "description": "Generated dynamically from draw.io SVG element payload",
+      "textLabels": [
+        {
+          "id": "876b84ea-1cb5-4256-a30e-1c20039b9e05",
+          "text": "A",
+          "x": 7,
+          "y": 34,
+          "rotation": null
+        }
+      ]
+    },
+    "Dynamic_Symbol_1259228779": {
+      "id": "Dynamic_Symbol_1259228779",
+      "title": "Component",
+      "category": "Dynamic",
+      "pathData": "M -0.4,95.05 H 14.6 V 125.05 H -0.4 Z",
+      "viewBox": {
+        "x": 0,
+        "y": 0,
+        "width": 15,
+        "height": 30
+      },
+      "rawSvgContent": "\u003Crect x=\u0022-0.4\u0022 y=\u002295.05\u0022 width=\u002215\u0022 height=\u002230\u0022 fill=\u0022none\u0022 stroke=\u0022none\u0022 pointer-events=\u0022all\u0022 /\u003E\u003Ctext x=\u00227\u0022 y=\u0022114\u0022 fill=\u0022#000000\u0022 font-family=\u0022Helvetica\u0022 font-size=\u002212px\u0022 text-anchor=\u0022middle\u0022 style=\u0022fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\u0022\u003EB\u003C/text\u003E",
+      "pins": null,
+      "description": "Generated dynamically from draw.io SVG element payload",
+      "textLabels": [
+        {
+          "id": "39ae612b-ccdf-4c58-bf22-2c95a0929137",
+          "text": "B",
+          "x": 7,
+          "y": 114,
+          "rotation": null
+        }
+      ]
+    },
+    "Dynamic_Symbol_1112659846": {
+      "id": "Dynamic_Symbol_1112659846",
+      "title": "And Gate",
+      "category": "Dynamic",
+      "pathData": "M 129.6 110.05 L 149.6 110.05 M 49.6 95.05 L 69.6 95.05 M 49.6 125.05 L 69.6 125.05 M 69.6 80.05 L 99.6 80.05 C 116.17 80.05 129.6 93.48 129.6 110.05 C 129.6 126.62 116.17 140.05 99.6 140.05 L 69.6 140.05 Z",
+      "viewBox": {
+        "x": 0,
+        "y": 0,
+        "width": 100,
+        "height": 60
+      },
+      "rawSvgContent": "\u003Cpath d=\u0022M 129.6 110.05 L 149.6 110.05 M 49.6 95.05 L 69.6 95.05 M 49.6 125.05 L 69.6 125.05\u0022 fill=\u0022none\u0022 stroke=\u0022#000000\u0022 stroke-miterlimit=\u002210\u0022 pointer-events=\u0022all\u0022 style=\u0022stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\u0022 /\u003E\u003Cpath d=\u0022M 69.6 80.05 L 99.6 80.05 C 116.17 80.05 129.6 93.48 129.6 110.05 C 129.6 126.62 116.17 140.05 99.6 140.05 L 69.6 140.05 Z\u0022 fill=\u0022#ffffff\u0022 stroke=\u0022#000000\u0022 stroke-miterlimit=\u002210\u0022 pointer-events=\u0022all\u0022 style=\u0022fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\u0022 /\u003E\u003Cellipse cx=\u0022133.35\u0022 cy=\u0022110.05\u0022 rx=\u00223.75\u0022 ry=\u00223.75\u0022 fill=\u0022#ffffff\u0022 stroke=\u0022#000000\u0022 pointer-events=\u0022all\u0022 style=\u0022fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\u0022 /\u003E",
+      "pins": null,
+      "description": "Generated dynamically from draw.io SVG element payload",
+      "textLabels": []
+    },
+    "Dynamic_Symbol_1948217559": {
+      "id": "Dynamic_Symbol_1948217559",
+      "title": "And Gate",
+      "category": "Dynamic",
+      "pathData": "M 259.6 70.05 L 279.6 70.05 M 179.6 55.05 L 199.6 55.05 M 179.6 85.05 L 199.6 85.05 M 199.6 40.05 L 229.6 40.05 C 246.17 40.05 259.6 53.48 259.6 70.05 C 259.6 86.62 246.17 100.05 229.6 100.05 L 199.6 100.05 Z",
+      "viewBox": {
+        "x": 0,
+        "y": 0,
+        "width": 100,
+        "height": 60
+      },
+      "rawSvgContent": "\u003Cpath d=\u0022M 259.6 70.05 L 279.6 70.05 M 179.6 55.05 L 199.6 55.05 M 179.6 85.05 L 199.6 85.05\u0022 fill=\u0022none\u0022 stroke=\u0022#000000\u0022 stroke-miterlimit=\u002210\u0022 pointer-events=\u0022all\u0022 style=\u0022stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\u0022 /\u003E\u003Cpath d=\u0022M 199.6 40.05 L 229.6 40.05 C 246.17 40.05 259.6 53.48 259.6 70.05 C 259.6 86.62 246.17 100.05 229.6 100.05 L 199.6 100.05 Z\u0022 fill=\u0022#ffffff\u0022 stroke=\u0022#000000\u0022 stroke-miterlimit=\u002210\u0022 pointer-events=\u0022all\u0022 style=\u0022fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\u0022 /\u003E\u003Cellipse cx=\u0022263.35\u0022 cy=\u002270.05\u0022 rx=\u00223.75\u0022 ry=\u00223.75\u0022 fill=\u0022#ffffff\u0022 stroke=\u0022#000000\u0022 pointer-events=\u0022all\u0022 style=\u0022fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\u0022 /\u003E",
+      "pins": null,
+      "description": "Generated dynamically from draw.io SVG element payload",
+      "textLabels": []
+    }
+  },
+  "ports": [
+    {
+      "id": "HUCD7_BCj626kMmnS6GJ-8",
+      "type": "output",
+      "x": 295,
+      "y": 70,
+      "radius": 5,
+      "label": null,
+      "labelPosition": null,
+      "direction": null
+    },
+    {
+      "id": "HUCD7_BCj626kMmnS6GJ-13",
+      "type": "input",
+      "x": 25,
+      "y": 30,
+      "radius": 5,
+      "label": null,
+      "labelPosition": null,
+      "direction": null
+    },
+    {
+      "id": "HUCD7_BCj626kMmnS6GJ-14",
+      "type": "input",
+      "x": 20,
+      "y": 110,
+      "radius": 5,
+      "label": null,
+      "labelPosition": null,
+      "direction": null
+    }
+  ],
+  "wires": [
+    {
+      "id": "HUCD7_BCj626kMmnS6GJ-9",
+      "path": "M 279.60 70.05 L 295.00 70.00",
+      "strokeWidth": 2,
+      "color": "#2C3E50",
+      "sourceId": null,
+      "targetId": "HUCD7_BCj626kMmnS6GJ-8",
+      "logicState": null
+    },
+    {
+      "id": "suZ9D4geNTOpsQTQff5G-2",
+      "path": "M 25.00 30.00 L 39.63 30.08 L 39.63 15.05 L 49.60 15.05",
+      "strokeWidth": 2,
+      "color": "#2C3E50",
+      "sourceId": "HUCD7_BCj626kMmnS6GJ-13",
+      "targetId": "HUCD7_BCj626kMmnS6GJ-12",
+      "logicState": null
+    },
+    {
+      "id": "suZ9D4geNTOpsQTQff5G-3",
+      "path": "M 25.00 30.00 L 39.63 30.08 L 39.63 45.05 L 49.60 45.05",
+      "strokeWidth": 2,
+      "color": "#2C3E50",
+      "sourceId": "HUCD7_BCj626kMmnS6GJ-13",
+      "targetId": "HUCD7_BCj626kMmnS6GJ-12",
+      "logicState": null
+    },
+    {
+      "id": "suZ9D4geNTOpsQTQff5G-4",
+      "path": "M 20.00 110.00 L 37.08 110.08 L 37.08 95.05 L 49.60 95.05",
+      "strokeWidth": 2,
+      "color": "#2C3E50",
+      "sourceId": "HUCD7_BCj626kMmnS6GJ-14",
+      "targetId": "suZ9D4geNTOpsQTQff5G-0",
+      "logicState": null
+    },
+    {
+      "id": "suZ9D4geNTOpsQTQff5G-5",
+      "path": "M 20.00 110.00 L 37.08 110.08 L 37.08 125.05 L 49.60 125.05",
+      "strokeWidth": 2,
+      "color": "#2C3E50",
+      "sourceId": "HUCD7_BCj626kMmnS6GJ-14",
+      "targetId": "suZ9D4geNTOpsQTQff5G-0",
+      "logicState": null
+    },
+    {
+      "id": "suZ9D4geNTOpsQTQff5G-6",
+      "path": "M 149.6 30.05 L 164.6 30.08 L 164.6 55.05 L 179.6 55.05",
+      "strokeWidth": 2,
+      "color": "#2C3E50",
+      "sourceId": "HUCD7_BCj626kMmnS6GJ-12",
+      "targetId": "suZ9D4geNTOpsQTQff5G-1",
+      "logicState": null
+    },
+    {
+      "id": "suZ9D4geNTOpsQTQff5G-7",
+      "path": "M 149.6 110.05 L 164.6 110.08 L 164.6 85.05 L 179.6 85.05",
+      "strokeWidth": 2,
+      "color": "#2C3E50",
+      "sourceId": "suZ9D4geNTOpsQTQff5G-0",
+      "targetId": "suZ9D4geNTOpsQTQff5G-1",
+      "logicState": null
+    }
+  ],
+  "junctions": [],
+  "widgets": [
+    {
+      "id": "HUCD7_BCj626kMmnS6GJ-11",
+      "type": "svgSymbol",
+      "x": 299,
+      "y": 55,
+      "width": 20,
+      "height": 30,
+      "rotation": 0,
+      "symbolId": "Dynamic_Symbol_717403347",
+      "rawGroupContent": "",
+      "fill": null,
+      "stroke": "#2C3E50",
+      "strokeWidth": 2,
+      "scale": 1
+    },
+    {
+      "id": "HUCD7_BCj626kMmnS6GJ-12",
+      "type": "svgSymbol",
+      "x": 50,
+      "y": 0,
+      "width": 100,
+      "height": 60,
+      "rotation": 0,
+      "symbolId": "Dynamic_Symbol_1525646727",
+      "rawGroupContent": "",
+      "fill": null,
+      "stroke": "#2C3E50",
+      "strokeWidth": 2,
+      "scale": 1
+    },
+    {
+      "id": "HUCD7_BCj626kMmnS6GJ-17",
+      "type": "svgSymbol",
+      "x": 0,
+      "y": 15,
+      "width": 15,
+      "height": 30,
+      "rotation": 0,
+      "symbolId": "Dynamic_Symbol_1549402055",
+      "rawGroupContent": "",
+      "fill": null,
+      "stroke": "#2C3E50",
+      "strokeWidth": 2,
+      "scale": 1
+    },
+    {
+      "id": "HUCD7_BCj626kMmnS6GJ-18",
+      "type": "svgSymbol",
+      "x": 0,
+      "y": 95,
+      "width": 15,
+      "height": 30,
+      "rotation": 0,
+      "symbolId": "Dynamic_Symbol_1259228779",
+      "rawGroupContent": "",
+      "fill": null,
+      "stroke": "#2C3E50",
+      "strokeWidth": 2,
+      "scale": 1
+    },
+    {
+      "id": "suZ9D4geNTOpsQTQff5G-0",
+      "type": "svgSymbol",
+      "x": 50,
+      "y": 80,
+      "width": 100,
+      "height": 60,
+      "rotation": 0,
+      "symbolId": "Dynamic_Symbol_1112659846",
+      "rawGroupContent": "",
+      "fill": null,
+      "stroke": "#2C3E50",
+      "strokeWidth": 2,
+      "scale": 1
+    },
+    {
+      "id": "suZ9D4geNTOpsQTQff5G-1",
+      "type": "svgSymbol",
+      "x": 180,
+      "y": 40,
+      "width": 100,
+      "height": 60,
+      "rotation": 0,
+      "symbolId": "Dynamic_Symbol_1948217559",
+      "rawGroupContent": "",
+      "fill": null,
+      "stroke": "#2C3E50",
+      "strokeWidth": 2,
+      "scale": 1
+    }
+  ],
+  "verification": null
+}

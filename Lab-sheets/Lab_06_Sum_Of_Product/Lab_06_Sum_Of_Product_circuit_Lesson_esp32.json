@@ -1,0 +1,521 @@
+{
+  "version": "1.0",
+  "lesson_id": "editor-20260729",
+  "title": "Lab_06_Sum_Of_Product_circuit_Lesson",
+  "title_th": "Lab_06_Sum_Of_Product_circuit_Lesson",
+  "category": "custom",
+  "difficulty": "beginner",
+  "estimated_minutes": 25,
+  "ic": "",
+  "pages": [
+    {
+      "page_type": "cover",
+      "title": "Sum of Products (SOP)",
+      "subtitle": "การสร้างวงจรตรรกะจากสมการมินเทอม",
+      "ic_label": "7404 / 7408 / 7432",
+      "objectives": [
+        "เรียนรู้การแปลงสมการบูลีนรูปแบบ Sum of Products (SOP) เป็นวงจรเกตตรรกะ",
+        "สามารถสร้างวงจรโครงสร้าง AND-OR Logic"
+      ],
+      "body": null,
+      "circuit_screen": null,
+      "circuit_file": null,
+      "hint": null,
+      "inputs": null,
+      "outputs": null,
+      "gate_type": null,
+      "ic": null,
+      "instructions": null,
+      "photo_url": null,
+      "photo_caption": null,
+      "encouragement_icon": null,
+      "encouragement_message": null
+    },
+    {
+      "page_type": "theory",
+      "title": "ทฤษฎีพื้นฐาน",
+      "subtitle": null,
+      "ic_label": null,
+      "objectives": null,
+      "body": "รูปแบบ Sum of Products (SOP) คือการนำมินเทอมที่เกิดจากการคูณ (AND) มารวมกันด้วยการบวก (OR) เช่น $Y = A \\cdot B + \\overline{A} \\cdot \\overline{B}$ ซึ่งทำหน้าที่เป็นวงจรตรวจสอบความเหมือน",
+      "circuit_screen": null,
+      "circuit_file": null,
+      "hint": null,
+      "inputs": null,
+      "outputs": null,
+      "gate_type": null,
+      "ic": null,
+      "instructions": null,
+      "photo_url": null,
+      "photo_caption": null,
+      "encouragement_icon": null,
+      "encouragement_message": null
+    },
+    {
+      "page_type": "circuit",
+      "title": "วงจรทดลอง",
+      "subtitle": null,
+      "ic_label": null,
+      "objectives": null,
+      "body": null,
+      "circuit_screen": {
+        "Version": "2.0-2607",
+        "Title": "Converted Circuit",
+        "Description": "coord_mode=raw",
+        "Width": 1000,
+        "Height": 1000,
+        "BackgroundColor": "#FFFFFF",
+        "EmbeddedSymbols": {
+          "Dynamic_Symbol_1016655147": {
+            "Id": "Dynamic_Symbol_1016655147",
+            "Title": "And Gate",
+            "Category": "Dynamic",
+            "PathData": "M 190 30 L 210 30 M 110 15 L 130 15 M 110 45 L 130 45 M 130 0 L 160 0 C 176.57 0 190 13.43 190 30 C 190 46.57 176.57 60 160 60 L 130 60 Z",
+            "ViewBox": {
+              "X": 0,
+              "Y": 0,
+              "Width": 100,
+              "Height": 60
+            },
+            "RawSvgContent": "<path d=\"M 190 30 L 210 30 M 110 15 L 130 15 M 110 45 L 130 45\" fill=\"none\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\" style=\"stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" /><path d=\"M 130 0 L 160 0 C 176.57 0 190 13.43 190 30 C 190 46.57 176.57 60 160 60 L 130 60 Z\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\" style=\"fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" />",
+            "Description": "Generated dynamically from draw.io SVG element payload"
+          },
+          "Dynamic_Symbol_2109326665": {
+            "Id": "Dynamic_Symbol_2109326665",
+            "Title": "Inverter 2",
+            "Category": "Dynamic",
+            "PathData": "M 110 120 L 130 120 M 194 120 L 210 120 M 187 120 L 127 150 L 127 90 Z",
+            "ViewBox": {
+              "X": 0,
+              "Y": 0,
+              "Width": 100,
+              "Height": 60
+            },
+            "RawSvgContent": "<path d=\"M 110 120 L 130 120\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\" style=\"fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" /><path d=\"M 194 120 L 210 120\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\" style=\"fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" /><path d=\"M 187 120 L 127 150 L 127 90 Z\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\" style=\"fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" /><ellipse cx=\"191\" cy=\"120\" rx=\"4\" ry=\"4\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\" style=\"fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" />",
+            "Description": "Generated dynamically from draw.io SVG element payload"
+          },
+          "Dynamic_Symbol_938956460": {
+            "Id": "Dynamic_Symbol_938956460",
+            "Title": "Inverter 2",
+            "Category": "Dynamic",
+            "PathData": "M 110 200 L 130 200 M 194 200 L 210 200 M 187 200 L 127 230 L 127 170 Z",
+            "ViewBox": {
+              "X": 0,
+              "Y": 0,
+              "Width": 100,
+              "Height": 60
+            },
+            "RawSvgContent": "<path d=\"M 110 200 L 130 200\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\" style=\"fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" /><path d=\"M 194 200 L 210 200\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\" style=\"fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" /><path d=\"M 187 200 L 127 230 L 127 170 Z\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\" style=\"fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" /><ellipse cx=\"191\" cy=\"200\" rx=\"4\" ry=\"4\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\" style=\"fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" />",
+            "Description": "Generated dynamically from draw.io SVG element payload"
+          },
+          "Dynamic_Symbol_1984602362": {
+            "Id": "Dynamic_Symbol_1984602362",
+            "Title": "And Gate",
+            "Category": "Dynamic",
+            "PathData": "M 310 160 L 330 160 M 230 145 L 250 145 M 230 175 L 250 175 M 250 130 L 280 130 C 296.57 130 310 143.43 310 160 C 310 176.57 296.57 190 280 190 L 250 190 Z",
+            "ViewBox": {
+              "X": 0,
+              "Y": 0,
+              "Width": 100,
+              "Height": 60
+            },
+            "RawSvgContent": "<path d=\"M 310 160 L 330 160 M 230 145 L 250 145 M 230 175 L 250 175\" fill=\"none\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\" style=\"stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" /><path d=\"M 250 130 L 280 130 C 296.57 130 310 143.43 310 160 C 310 176.57 296.57 190 280 190 L 250 190 Z\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\" style=\"fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" />",
+            "Description": "Generated dynamically from draw.io SVG element payload"
+          },
+          "Dynamic_Symbol_815891522": {
+            "Id": "Dynamic_Symbol_815891522",
+            "Title": "Or Gate",
+            "Category": "Dynamic",
+            "PathData": "M 440 80 L 460 80 M 360 65 L 383 65 M 360 95 L 383 95 M 400 50 C 417.47 50.56 433.06 62.25 440 80 C 433.06 97.75 417.47 109.44 400 110 L 375 110 C 385.72 91.44 385.72 68.56 375 50 Z",
+            "ViewBox": {
+              "X": 0,
+              "Y": 0,
+              "Width": 100,
+              "Height": 60
+            },
+            "RawSvgContent": "<path d=\"M 440 80 L 460 80 M 360 65 L 383 65 M 360 95 L 383 95\" fill=\"none\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\" style=\"stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" /><path d=\"M 400 50 C 417.47 50.56 433.06 62.25 440 80 C 433.06 97.75 417.47 109.44 400 110 L 375 110 C 385.72 91.44 385.72 68.56 375 50 Z\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\" style=\"fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" />",
+            "Description": "Generated dynamically from draw.io SVG element payload"
+          },
+          "Dynamic_Symbol_1724245443": {
+            "Id": "Dynamic_Symbol_1724245443",
+            "Title": "Component",
+            "Category": "Dynamic",
+            "PathData": "M 0,0 H 20 V 30 H 0 Z",
+            "ViewBox": {
+              "X": 0,
+              "Y": 0,
+              "Width": 20,
+              "Height": 30
+            },
+            "RawSvgContent": "<rect x=\"0\" y=\"0\" width=\"20\" height=\"30\" fill=\"none\" stroke=\"none\" pointer-events=\"all\" /><text x=\"10\" y=\"19\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\" style=\"fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">A</text>",
+            "Description": "Generated dynamically from draw.io SVG element payload"
+          },
+          "Dynamic_Symbol_815615002": {
+            "Id": "Dynamic_Symbol_815615002",
+            "Title": "Component",
+            "Category": "Dynamic",
+            "PathData": "M 0,30 H 20 V 60 H 0 Z",
+            "ViewBox": {
+              "X": 0,
+              "Y": 0,
+              "Width": 20,
+              "Height": 30
+            },
+            "RawSvgContent": "<rect x=\"0\" y=\"30\" width=\"20\" height=\"30\" fill=\"none\" stroke=\"none\" pointer-events=\"all\" /><text x=\"10\" y=\"49\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\" style=\"fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">B</text>",
+            "Description": "Generated dynamically from draw.io SVG element payload"
+          },
+          "Dynamic_Symbol_2142568957": {
+            "Id": "Dynamic_Symbol_2142568957",
+            "Title": "Component",
+            "Category": "Dynamic",
+            "PathData": "M 490,65 H 510 V 95 H 490 Z",
+            "ViewBox": {
+              "X": 0,
+              "Y": 0,
+              "Width": 20,
+              "Height": 30
+            },
+            "RawSvgContent": "<rect x=\"490\" y=\"65\" width=\"20\" height=\"30\" fill=\"none\" stroke=\"none\" pointer-events=\"all\" /><text x=\"500\" y=\"84\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\" style=\"fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">Y</text>",
+            "Description": "Generated dynamically from draw.io SVG element payload"
+          }
+        },
+        "Ports": [
+          {
+            "Id": "YJtqk1Rd9Y6-bdIAYf6e-11",
+            "Type": "input",
+            "X": 25,
+            "Y": 15,
+            "Radius": 5
+          },
+          {
+            "Id": "YJtqk1Rd9Y6-bdIAYf6e-12",
+            "Type": "input",
+            "X": 25,
+            "Y": 45,
+            "Radius": 5
+          },
+          {
+            "Id": "YJtqk1Rd9Y6-bdIAYf6e-15",
+            "Type": "output",
+            "X": 485,
+            "Y": 80,
+            "Radius": 5
+          },
+          {
+            "Id": "YJtqk1Rd9Y6-bdIAYf6e-23",
+            "Type": "output",
+            "X": 95,
+            "Y": 15,
+            "Radius": 5
+          },
+          {
+            "Id": "YJtqk1Rd9Y6-bdIAYf6e-24",
+            "Type": "output",
+            "X": 65,
+            "Y": 45,
+            "Radius": 5
+          }
+        ],
+        "Wires": [
+          {
+            "Id": "YJtqk1Rd9Y6-bdIAYf6e-7",
+            "Path": "M 210 120 L 220 120 L 220 145 L 230 145",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "YJtqk1Rd9Y6-bdIAYf6e-3",
+            "TargetId": "YJtqk1Rd9Y6-bdIAYf6e-5"
+          },
+          {
+            "Id": "YJtqk1Rd9Y6-bdIAYf6e-8",
+            "Path": "M 210 200 L 220 200 L 220 175 L 230 175",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "YJtqk1Rd9Y6-bdIAYf6e-4",
+            "TargetId": "YJtqk1Rd9Y6-bdIAYf6e-5"
+          },
+          {
+            "Id": "YJtqk1Rd9Y6-bdIAYf6e-9",
+            "Path": "M 210 30 L 340 30 L 340 65 L 360 65",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "YJtqk1Rd9Y6-bdIAYf6e-2",
+            "TargetId": "YJtqk1Rd9Y6-bdIAYf6e-6"
+          },
+          {
+            "Id": "YJtqk1Rd9Y6-bdIAYf6e-10",
+            "Path": "M 330 160 L 340 160 L 340 95 L 360 95",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "YJtqk1Rd9Y6-bdIAYf6e-5",
+            "TargetId": "YJtqk1Rd9Y6-bdIAYf6e-6"
+          },
+          {
+            "Id": "YJtqk1Rd9Y6-bdIAYf6e-16",
+            "Path": "M 460.00 80.00 L 485.00 80.00",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "YJtqk1Rd9Y6-bdIAYf6e-6",
+            "TargetId": "YJtqk1Rd9Y6-bdIAYf6e-15"
+          },
+          {
+            "Id": "YJtqk1Rd9Y6-bdIAYf6e-17",
+            "Path": "M 25.00 15.00 L 110.00 15.00",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "YJtqk1Rd9Y6-bdIAYf6e-11",
+            "TargetId": "YJtqk1Rd9Y6-bdIAYf6e-2"
+          },
+          {
+            "Id": "YJtqk1Rd9Y6-bdIAYf6e-18",
+            "Path": "M 25.00 45.00 L 110.00 45.00",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "YJtqk1Rd9Y6-bdIAYf6e-12",
+            "TargetId": "YJtqk1Rd9Y6-bdIAYf6e-2"
+          },
+          {
+            "Id": "YJtqk1Rd9Y6-bdIAYf6e-25",
+            "Path": "M 110.00 120.00 L 94.70 120.00 L 95.00 15.00",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "YJtqk1Rd9Y6-bdIAYf6e-3",
+            "TargetId": "YJtqk1Rd9Y6-bdIAYf6e-23"
+          },
+          {
+            "Id": "YJtqk1Rd9Y6-bdIAYf6e-26",
+            "Path": "M 110.00 200.00 L 64.20 200.00 L 65.00 45.00",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "YJtqk1Rd9Y6-bdIAYf6e-4",
+            "TargetId": "YJtqk1Rd9Y6-bdIAYf6e-24"
+          }
+        ],
+        "Junctions": [],
+        "Widgets": [
+          {
+            "Id": "YJtqk1Rd9Y6-bdIAYf6e-2",
+            "Type": "svgSymbol",
+            "X": 110,
+            "Y": 0,
+            "Width": 100,
+            "Height": 60,
+            "Rotation": 0,
+            "SymbolId": "Dynamic_Symbol_1016655147",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "YJtqk1Rd9Y6-bdIAYf6e-3",
+            "Type": "svgSymbol",
+            "X": 110,
+            "Y": 90,
+            "Width": 100,
+            "Height": 60,
+            "Rotation": 0,
+            "SymbolId": "Dynamic_Symbol_2109326665",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "YJtqk1Rd9Y6-bdIAYf6e-4",
+            "Type": "svgSymbol",
+            "X": 110,
+            "Y": 170,
+            "Width": 100,
+            "Height": 60,
+            "Rotation": 0,
+            "SymbolId": "Dynamic_Symbol_938956460",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "YJtqk1Rd9Y6-bdIAYf6e-5",
+            "Type": "svgSymbol",
+            "X": 230,
+            "Y": 130,
+            "Width": 100,
+            "Height": 60,
+            "Rotation": 0,
+            "SymbolId": "Dynamic_Symbol_1984602362",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "YJtqk1Rd9Y6-bdIAYf6e-6",
+            "Type": "svgSymbol",
+            "X": 360,
+            "Y": 50,
+            "Width": 100,
+            "Height": 60,
+            "Rotation": 0,
+            "SymbolId": "Dynamic_Symbol_815891522",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "YJtqk1Rd9Y6-bdIAYf6e-27",
+            "Type": "svgSymbol",
+            "X": 0,
+            "Y": 0,
+            "Width": 20,
+            "Height": 30,
+            "Rotation": 0,
+            "SymbolId": "Dynamic_Symbol_1724245443",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "YJtqk1Rd9Y6-bdIAYf6e-28",
+            "Type": "svgSymbol",
+            "X": 0,
+            "Y": 30,
+            "Width": 20,
+            "Height": 30,
+            "Rotation": 0,
+            "SymbolId": "Dynamic_Symbol_815615002",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "YJtqk1Rd9Y6-bdIAYf6e-29",
+            "Type": "svgSymbol",
+            "X": 490,
+            "Y": 65,
+            "Width": 20,
+            "Height": 30,
+            "Rotation": 0,
+            "SymbolId": "Dynamic_Symbol_2142568957",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          }
+        ]
+      },
+      "circuit_file": null,
+      "hint": " ใช้ NOT Gate 2 ตัว, AND Gate 2 ตัว และ OR Gate 1 ตัว",
+      "inputs": [
+        "A0",
+        "A1"
+      ],
+      "outputs": [
+        "Y0"
+      ],
+      "gate_type": null,
+      "ic": null,
+      "instructions": null,
+      "photo_url": null,
+      "photo_caption": null,
+      "encouragement_icon": null,
+      "encouragement_message": null
+    },
+    {
+      "page_type": "verify",
+      "title": "ตรวจสอบวงจร",
+      "subtitle": null,
+      "ic_label": null,
+      "objectives": null,
+      "body": null,
+      "circuit_screen": null,
+      "circuit_file": null,
+      "hint": null,
+      "inputs": null,
+      "outputs": null,
+      "gate_type": null,
+      "ic": null,
+      "instructions": [
+        "ตรวจสอบจุดเชื่อมต่อสายสัญญาณ Junction ให้ถูกต้อง",
+        "ป้อนสภาวะอินพุต 00, 01, 10, 11 แล้วสังเกตเอาต์พุต Y"
+      ],
+      "photo_url": null,
+      "photo_caption": null,
+      "encouragement_icon": null,
+      "encouragement_message": null,
+      "verification": {
+        "ic_name": "",
+        "description": "",
+        "drive_ports": [
+          "pin0",
+          "pin1"
+        ],
+        "read_ports": [
+          "pin0"
+        ],
+        "truth_table": [
+          {
+            "inputs": [
+              0,
+              0
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              0,
+              1
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              1,
+              0
+            ],
+            "expected": [
+              0
+            ]
+          },
+          {
+            "inputs": [
+              1,
+              1
+            ],
+            "expected": [
+              1
+            ]
+          }
+        ],
+        "timing": null,
+        "common_errors": []
+      }
+    },
+    {
+      "page_type": "summary",
+      "title": "สรุปผล",
+      "subtitle": null,
+      "ic_label": null,
+      "objectives": null,
+      "body": "สำเร็จแล้วครับ! ผู้เรียนสามารถออกแบบและสร้างวงจรตรรกะผสมรูปแบบ Sum of Products (SOP) ได้สำเร็จ",
+      "circuit_screen": null,
+      "circuit_file": null,
+      "hint": null,
+      "inputs": null,
+      "outputs": null,
+      "gate_type": null,
+      "ic": null,
+      "instructions": null,
+      "photo_url": null,
+      "photo_caption": null,
+      "encouragement_icon": null,
+      "encouragement_message": null
+    }
+  ]
+}

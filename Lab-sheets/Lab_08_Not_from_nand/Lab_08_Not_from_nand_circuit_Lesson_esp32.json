@@ -1,0 +1,289 @@
+{
+  "version": "1.0",
+  "lesson_id": "editor-20260729",
+  "title": "Lab_08_Not_from_nand_circuit_Lesson",
+  "title_th": "Lab_08_Not_from_nand_circuit_Lesson",
+  "category": "custom",
+  "difficulty": "beginner",
+  "estimated_minutes": 25,
+  "ic": "",
+  "pages": [
+    {
+      "page_type": "cover",
+      "title": "Universal Gate Construction Lesson",
+      "subtitle": "การสร้าง NOT ด้วย NAND Gate",
+      "ic_label": "7400",
+      "objectives": [
+        "พิสูจน์คุณสมบัติ Universal Gate ของ NAND Gate",
+        "สามารถต่อ NAND Gate ดัดแปลงเป็น NOT, AND และ OR Gate"
+      ],
+      "body": null,
+      "circuit_screen": null,
+      "circuit_file": null,
+      "hint": null,
+      "inputs": null,
+      "outputs": null,
+      "gate_type": null,
+      "ic": null,
+      "instructions": null,
+      "photo_url": null,
+      "photo_caption": null,
+      "encouragement_icon": null,
+      "encouragement_message": null
+    },
+    {
+      "page_type": "theory",
+      "title": "ทฤษฎีพื้นฐาน",
+      "subtitle": null,
+      "ic_label": null,
+      "objectives": null,
+      "body": " NAND Gate เพียงชนิดเดียวสามารถนำมาต่อรวมกันเพื่อแทนเกตอื่นได้ทั้งหมด:\n1. **NOT:** รวบขาอินพุต NAND เข้าด้วยกัน ($\\overline{A \\cdot A} = \\overline{A}$)\n2. **AND:** ต่อ NOT (NAND รวบขา) หลัง NAND Gate ($\\overline{\\overline{A \\cdot B}} = A \\cdot B$)\n3. **OR:** ใส่ NOT ที่อินพุตแต่ละขาก่อนเข้า NAND ($\\overline{\\overline{A} \\cdot \\overline{B}} = A + B$)",
+      "circuit_screen": null,
+      "circuit_file": null,
+      "hint": null,
+      "inputs": null,
+      "outputs": null,
+      "gate_type": null,
+      "ic": null,
+      "instructions": null,
+      "photo_url": null,
+      "photo_caption": null,
+      "encouragement_icon": null,
+      "encouragement_message": null
+    },
+    {
+      "page_type": "circuit",
+      "title": "วงจรทดลอง",
+      "subtitle": null,
+      "ic_label": null,
+      "objectives": null,
+      "body": null,
+      "circuit_screen": {
+        "Version": "2.0-2607",
+        "Title": "Converted Circuit",
+        "Description": "coord_mode=raw",
+        "Width": 1000,
+        "Height": 1000,
+        "BackgroundColor": "#FFFFFF",
+        "EmbeddedSymbols": {
+          "Dynamic_Symbol_373525270": {
+            "Id": "Dynamic_Symbol_373525270",
+            "Title": "And Gate",
+            "Category": "Dynamic",
+            "PathData": "M 128.5 29.5 L 148.5 29.5 M 48.5 14.5 L 68.5 14.5 M 48.5 44.5 L 68.5 44.5 M 68.5 -0.5 L 98.5 -0.5 C 115.07 -0.5 128.5 12.93 128.5 29.5 C 128.5 46.07 115.07 59.5 98.5 59.5 L 68.5 59.5 Z",
+            "ViewBox": {
+              "X": 0,
+              "Y": 0,
+              "Width": 100,
+              "Height": 60
+            },
+            "RawSvgContent": "<path d=\"M 128.5 29.5 L 148.5 29.5 M 48.5 14.5 L 68.5 14.5 M 48.5 44.5 L 68.5 44.5\" fill=\"none\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\" style=\"stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" /><path d=\"M 68.5 -0.5 L 98.5 -0.5 C 115.07 -0.5 128.5 12.93 128.5 29.5 C 128.5 46.07 115.07 59.5 98.5 59.5 L 68.5 59.5 Z\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\" style=\"fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" /><ellipse cx=\"132.25\" cy=\"29.5\" rx=\"3.75\" ry=\"3.75\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\" style=\"fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" />",
+            "Description": "Generated dynamically from draw.io SVG element payload"
+          },
+          "Dynamic_Symbol_1157209780": {
+            "Id": "Dynamic_Symbol_1157209780",
+            "Title": "Component",
+            "Category": "Dynamic",
+            "PathData": "M -1.5,14.5 H 18.5 V 44.5 H -1.5 Z",
+            "ViewBox": {
+              "X": 0,
+              "Y": 0,
+              "Width": 20,
+              "Height": 30
+            },
+            "RawSvgContent": "<rect x=\"-1.5\" y=\"14.5\" width=\"20\" height=\"30\" fill=\"none\" stroke=\"none\" pointer-events=\"all\" /><text x=\"9\" y=\"33\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\" style=\"fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">A</text>",
+            "Description": "Generated dynamically from draw.io SVG element payload"
+          },
+          "Dynamic_Symbol_1912211933": {
+            "Id": "Dynamic_Symbol_1912211933",
+            "Title": "Component",
+            "Category": "Dynamic",
+            "PathData": "M 168.5,14.5 H 188.5 V 44.5 H 168.5 Z",
+            "ViewBox": {
+              "X": 0,
+              "Y": 0,
+              "Width": 20,
+              "Height": 30
+            },
+            "RawSvgContent": "<rect x=\"168.5\" y=\"14.5\" width=\"20\" height=\"30\" fill=\"none\" stroke=\"none\" pointer-events=\"all\" /><text x=\"179\" y=\"33\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\" style=\"fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">Y</text>",
+            "Description": "Generated dynamically from draw.io SVG element payload"
+          }
+        },
+        "Ports": [
+          {
+            "Id": "HUCD7_BCj626kMmnS6GJ-4",
+            "Type": "input",
+            "X": 25,
+            "Y": 30,
+            "Radius": 5
+          },
+          {
+            "Id": "HUCD7_BCj626kMmnS6GJ-8",
+            "Type": "output",
+            "X": 165,
+            "Y": 30,
+            "Radius": 5
+          }
+        ],
+        "Wires": [
+          {
+            "Id": "HUCD7_BCj626kMmnS6GJ-5",
+            "Path": "M 25.00 30.00 L 43.50 29.50 L 43.50 14.50 L 48.50 14.50",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "HUCD7_BCj626kMmnS6GJ-4",
+            "TargetId": "HUCD7_BCj626kMmnS6GJ-2"
+          },
+          {
+            "Id": "HUCD7_BCj626kMmnS6GJ-6",
+            "Path": "M 25.00 30.00 L 43.50 29.50 L 43.50 44.50 L 48.50 44.50",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "HUCD7_BCj626kMmnS6GJ-4",
+            "TargetId": "HUCD7_BCj626kMmnS6GJ-2"
+          },
+          {
+            "Id": "HUCD7_BCj626kMmnS6GJ-9",
+            "Path": "M 148.50 29.50 L 165.00 30.00",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "HUCD7_BCj626kMmnS6GJ-2",
+            "TargetId": "HUCD7_BCj626kMmnS6GJ-8"
+          }
+        ],
+        "Junctions": [],
+        "Widgets": [
+          {
+            "Id": "HUCD7_BCj626kMmnS6GJ-2",
+            "Type": "svgSymbol",
+            "X": 50,
+            "Y": 0,
+            "Width": 100,
+            "Height": 60,
+            "Rotation": 0,
+            "SymbolId": "Dynamic_Symbol_373525270",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "HUCD7_BCj626kMmnS6GJ-10",
+            "Type": "svgSymbol",
+            "X": 0,
+            "Y": 15,
+            "Width": 20,
+            "Height": 30,
+            "Rotation": 0,
+            "SymbolId": "Dynamic_Symbol_1157209780",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "HUCD7_BCj626kMmnS6GJ-11",
+            "Type": "svgSymbol",
+            "X": 170,
+            "Y": 15,
+            "Width": 20,
+            "Height": 30,
+            "Rotation": 0,
+            "SymbolId": "Dynamic_Symbol_1912211933",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          }
+        ]
+      },
+      "circuit_file": null,
+      "hint": "ใช้ IC 7400 ประกอบเป็นวงจร NOT Gate จาก NAND 1 ตัว โดยการรวบขาอินพุตเข้าด้วยกัน",
+      "inputs": [
+        "A0"
+      ],
+      "outputs": [
+        "Y0"
+      ],
+      "gate_type": "NAND",
+      "ic": null,
+      "instructions": null,
+      "photo_url": null,
+      "photo_caption": null,
+      "encouragement_icon": null,
+      "encouragement_message": null
+    },
+    {
+      "page_type": "verify",
+      "title": "ตรวจสอบวงจร",
+      "subtitle": null,
+      "ic_label": null,
+      "objectives": null,
+      "body": null,
+      "circuit_screen": null,
+      "circuit_file": null,
+      "hint": null,
+      "inputs": null,
+      "outputs": null,
+      "gate_type": null,
+      "ic": "7400",
+      "instructions": [
+        "ต่อ NAND Gate 1 ตัวบน IC 7400 โดยรวบขาอินพุตเข้าด้วยกันตามไดอะแกรม"
+      ],
+      "photo_url": null,
+      "photo_caption": null,
+      "encouragement_icon": null,
+      "encouragement_message": null,
+      "verification": {
+        "ic_name": "",
+        "description": "",
+        "drive_ports": [
+          "pin0"
+        ],
+        "read_ports": [
+          "pin0"
+        ],
+        "truth_table": [
+          {
+            "inputs": [
+              0
+            ],
+            "expected": [
+              1
+            ]
+          },
+          {
+            "inputs": [
+              1
+            ],
+            "expected": [
+              0
+            ]
+          }
+        ],
+        "timing": null,
+        "common_errors": []
+      }
+    },
+    {
+      "page_type": "summary",
+      "title": "สรุปผล",
+      "subtitle": null,
+      "ic_label": null,
+      "objectives": null,
+      "body": "สำเร็จแล้วครับ! ผู้เรียนพิสูจน์ได้ว่า NAND Gate สามารถนำมารวบขาอินพุตเพื่อสร้างฟังก์ชัน NOT Gate ได้สำเร็จ",
+      "circuit_screen": null,
+      "circuit_file": null,
+      "hint": null,
+      "inputs": null,
+      "outputs": null,
+      "gate_type": null,
+      "ic": null,
+      "instructions": null,
+      "photo_url": null,
+      "photo_caption": null,
+      "encouragement_icon": null,
+      "encouragement_message": null
+    }
+  ]
+}

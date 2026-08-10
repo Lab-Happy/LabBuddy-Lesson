@@ -1,0 +1,282 @@
+{
+  "version": "1.0",
+  "lesson_id": "editor-20260729",
+  "title": "Lab_01_NOT_gate_E2E_Test_Lesson",
+  "title_th": "Lab_01_NOT_gate_E2E_Test_Lesson",
+  "category": "custom",
+  "difficulty": "beginner",
+  "estimated_minutes": 25,
+  "ic": "",
+  "pages": [
+    {
+      "page_type": "cover",
+      "title": "NOT Gate Lesson",
+      "subtitle": "การทดลอง NOT Gate",
+      "ic_label": "7404",
+      "objectives": [
+        "เข้าใจหลักการทำงานของ NOT Gate",
+        "สามารถสร้างวงจรอินเวอร์เตอร์"
+      ],
+      "body": null,
+      "circuit_screen": null,
+      "circuit_file": null,
+      "hint": null,
+      "inputs": null,
+      "outputs": null,
+      "gate_type": null,
+      "ic": null,
+      "instructions": null,
+      "photo_url": null,
+      "photo_caption": null,
+      "encouragement_icon": null,
+      "encouragement_message": null
+    },
+    {
+      "page_type": "theory",
+      "title": "ทฤษฎีพื้นฐาน",
+      "subtitle": null,
+      "ic_label": null,
+      "objectives": null,
+      "body": "NOT Gate หรือ Inverter เป็นลอจิกเกตที่ทำหน้าที่กลับค่าของอินพุต ถ้าอินพุตเป็น 1 ผลลัพธ์จะเป็น 0 ถ้าอินพุตเป็น 0 ผลลัพธ์จะเป็น 1",
+      "circuit_screen": null,
+      "circuit_file": null,
+      "hint": null,
+      "inputs": null,
+      "outputs": null,
+      "gate_type": null,
+      "ic": null,
+      "instructions": null,
+      "photo_url": null,
+      "photo_caption": null,
+      "encouragement_icon": null,
+      "encouragement_message": null
+    },
+    {
+      "page_type": "circuit",
+      "title": "วงจรทดลอง",
+      "subtitle": null,
+      "ic_label": null,
+      "objectives": null,
+      "body": null,
+      "circuit_screen": {
+        "Version": "2.0-2607",
+        "Title": "Converted Circuit",
+        "Description": "coord_mode=raw",
+        "Width": 1000,
+        "Height": 1000,
+        "BackgroundColor": "#FFFFFF",
+        "EmbeddedSymbols": {
+          "Dynamic_Symbol_1846329726": {
+            "Id": "Dynamic_Symbol_1846329726",
+            "Title": "Inverter 2",
+            "Category": "Dynamic",
+            "PathData": "M 78.2 30.5 L 98.2 30.5 M 162.2 30.5 L 178.2 30.5 M 155.2 30.5 L 95.2 60.5 L 95.2 0.5 Z",
+            "ViewBox": {
+              "X": 0,
+              "Y": 0,
+              "Width": 100,
+              "Height": 60
+            },
+            "RawSvgContent": "<path d=\"M 78.2 30.5 L 98.2 30.5\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\" style=\"fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" /><path d=\"M 162.2 30.5 L 178.2 30.5\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\" style=\"fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" /><path d=\"M 155.2 30.5 L 95.2 60.5 L 95.2 0.5 Z\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\" style=\"fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" /><ellipse cx=\"159.2\" cy=\"30.5\" rx=\"4\" ry=\"4\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\" style=\"fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\" />",
+            "Description": "Generated dynamically from draw.io SVG element payload"
+          },
+          "Dynamic_Symbol_1919440002": {
+            "Id": "Dynamic_Symbol_1919440002",
+            "Title": "Component",
+            "Category": "Dynamic",
+            "PathData": "M -1.8,15.5 H 18.2 V 45.5 H -1.8 Z",
+            "ViewBox": {
+              "X": 0,
+              "Y": 0,
+              "Width": 20,
+              "Height": 30
+            },
+            "RawSvgContent": "<rect x=\"-1.8\" y=\"15.5\" width=\"20\" height=\"30\" fill=\"none\" stroke=\"none\" pointer-events=\"all\" /><text x=\"8\" y=\"34\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\" style=\"fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">A</text>",
+            "Description": "Generated dynamically from draw.io SVG element payload"
+          },
+          "Dynamic_Symbol_381578566": {
+            "Id": "Dynamic_Symbol_381578566",
+            "Title": "Component",
+            "Category": "Dynamic",
+            "PathData": "M 248.2,15.5 H 268.2 V 45.5 H 248.2 Z",
+            "ViewBox": {
+              "X": 0,
+              "Y": 0,
+              "Width": 20,
+              "Height": 30
+            },
+            "RawSvgContent": "<rect x=\"248.2\" y=\"15.5\" width=\"20\" height=\"30\" fill=\"none\" stroke=\"none\" pointer-events=\"all\" /><text x=\"258\" y=\"34\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\" style=\"fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">Y</text>",
+            "Description": "Generated dynamically from draw.io SVG element payload"
+          }
+        },
+        "Ports": [
+          {
+            "Id": "Napp7D78PzJ3iYlyWiAc-3",
+            "Type": "input",
+            "X": 25,
+            "Y": 30,
+            "Radius": 5
+          },
+          {
+            "Id": "Napp7D78PzJ3iYlyWiAc-6",
+            "Type": "output",
+            "X": 245,
+            "Y": 30,
+            "Radius": 5
+          }
+        ],
+        "Wires": [
+          {
+            "Id": "Napp7D78PzJ3iYlyWiAc-5",
+            "Path": "M 25.00 30.00 L 78.20 30.50",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "Napp7D78PzJ3iYlyWiAc-3",
+            "TargetId": "Napp7D78PzJ3iYlyWiAc-2"
+          },
+          {
+            "Id": "Napp7D78PzJ3iYlyWiAc-7",
+            "Path": "M 178.20 30.50 L 245.00 30.00",
+            "StrokeWidth": 2,
+            "Color": "#2C3E50",
+            "SourceId": "Napp7D78PzJ3iYlyWiAc-2",
+            "TargetId": "Napp7D78PzJ3iYlyWiAc-6"
+          }
+        ],
+        "Junctions": [],
+        "Widgets": [
+          {
+            "Id": "Napp7D78PzJ3iYlyWiAc-2",
+            "Type": "svgSymbol",
+            "X": 80,
+            "Y": 0,
+            "Width": 100,
+            "Height": 60,
+            "Rotation": 0,
+            "SymbolId": "Dynamic_Symbol_1846329726",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "fpDBbBwixiU9n66qOIlV-0",
+            "Type": "svgSymbol",
+            "X": 0,
+            "Y": 15,
+            "Width": 20,
+            "Height": 30,
+            "Rotation": 0,
+            "SymbolId": "Dynamic_Symbol_1919440002",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          },
+          {
+            "Id": "fpDBbBwixiU9n66qOIlV-1",
+            "Type": "svgSymbol",
+            "X": 250,
+            "Y": 15,
+            "Width": 20,
+            "Height": 30,
+            "Rotation": 0,
+            "SymbolId": "Dynamic_Symbol_381578566",
+            "RawGroupContent": "",
+            "Stroke": "#2C3E50",
+            "StrokeWidth": 2,
+            "Scale": 1
+          }
+        ]
+      },
+      "circuit_file": null,
+      "hint": "ต่อสายบน protoboard",
+      "inputs": [
+        "A"
+      ],
+      "outputs": [
+        "Y"
+      ],
+      "gate_type": "NOT",
+      "ic": null,
+      "instructions": null,
+      "photo_url": null,
+      "photo_caption": null,
+      "encouragement_icon": null,
+      "encouragement_message": null
+    },
+    {
+      "page_type": "verify",
+      "title": "ตรวจสอบวงจร",
+      "subtitle": null,
+      "ic_label": null,
+      "objectives": null,
+      "body": null,
+      "circuit_screen": null,
+      "circuit_file": null,
+      "hint": null,
+      "inputs": null,
+      "outputs": null,
+      "gate_type": null,
+      "ic": null,
+      "instructions": [
+        "ต่อวงจร",
+        "ตรวจสอบวงจร"
+      ],
+      "photo_url": null,
+      "photo_caption": null,
+      "encouragement_icon": null,
+      "encouragement_message": null,
+      "verification": {
+        "ic_name": "",
+        "description": "",
+        "drive_ports": [
+          "pin0"
+        ],
+        "read_ports": [
+          "pin0"
+        ],
+        "truth_table": [
+          {
+            "inputs": [
+              0
+            ],
+            "expected": [
+              1
+            ]
+          },
+          {
+            "inputs": [
+              1
+            ],
+            "expected": [
+              0
+            ]
+          }
+        ],
+        "timing": null,
+        "common_errors": []
+      }
+    },
+    {
+      "page_type": "summary",
+      "title": "สรุปผล",
+      "subtitle": null,
+      "ic_label": null,
+      "objectives": null,
+      "body": "สำเร็จแล้วครับ ผู้เรียนสามารถเข้าใจหลักการทำงานของ NOT Gate และทดสอบวงจรอินเวอร์เตอร์ได้อย่างถูกต้อง",
+      "circuit_screen": null,
+      "circuit_file": null,
+      "hint": null,
+      "inputs": null,
+      "outputs": null,
+      "gate_type": null,
+      "ic": null,
+      "instructions": null,
+      "photo_url": null,
+      "photo_caption": null,
+      "encouragement_icon": null,
+      "encouragement_message": null
+    }
+  ]
+}

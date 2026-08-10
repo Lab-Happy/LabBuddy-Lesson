@@ -1,0 +1,226 @@
+{
+  "version": "2.0-2607",
+  "title": "Converted Circuit",
+  "description": "coord_mode=raw",
+  "width": 1000,
+  "height": 1000,
+  "backgroundColor": "#FFFFFF",
+  "embeddedSymbols": {
+    "Dynamic_Symbol_1668575153": {
+      "id": "Dynamic_Symbol_1668575153",
+      "title": "Or Gate",
+      "category": "Dynamic",
+      "pathData": "M 119.3 29.2 L 139.3 29.2 M 39.3 14.2 L 62.3 14.2 M 39.3 44.2 L 62.3 44.2 M 79.3 -0.8 C 96.77 -0.24 112.36 11.45 119.3 29.2 C 112.36 46.95 96.77 58.64 79.3 59.2 L 54.3 59.2 C 65.02 40.64 65.02 17.76 54.3 -0.8 Z",
+      "viewBox": {
+        "x": 0,
+        "y": 0,
+        "width": 100,
+        "height": 60
+      },
+      "rawSvgContent": "\u003Cpath d=\u0022M 119.3 29.2 L 139.3 29.2 M 39.3 14.2 L 62.3 14.2 M 39.3 44.2 L 62.3 44.2\u0022 fill=\u0022none\u0022 stroke=\u0022#000000\u0022 stroke-miterlimit=\u002210\u0022 pointer-events=\u0022all\u0022 style=\u0022stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\u0022 /\u003E\u003Cpath d=\u0022M 79.3 -0.8 C 96.77 -0.24 112.36 11.45 119.3 29.2 C 112.36 46.95 96.77 58.64 79.3 59.2 L 54.3 59.2 C 65.02 40.64 65.02 17.76 54.3 -0.8 Z\u0022 fill=\u0022#ffffff\u0022 stroke=\u0022#000000\u0022 stroke-miterlimit=\u002210\u0022 pointer-events=\u0022all\u0022 style=\u0022fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\u0022 /\u003E\u003Cellipse cx=\u0022123.05\u0022 cy=\u002229.2\u0022 rx=\u00223.75\u0022 ry=\u00223.75\u0022 fill=\u0022#ffffff\u0022 stroke=\u0022#000000\u0022 pointer-events=\u0022all\u0022 style=\u0022fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\u0022 /\u003E",
+      "pins": null,
+      "description": "Generated dynamically from draw.io SVG element payload",
+      "textLabels": []
+    },
+    "Dynamic_Symbol_1706672575": {
+      "id": "Dynamic_Symbol_1706672575",
+      "title": "Or Gate",
+      "category": "Dynamic",
+      "pathData": "M 119.3 149.2 L 139.3 149.2 M 39.3 134.2 L 62.3 134.2 M 39.3 164.2 L 62.3 164.2 M 79.3 119.2 C 96.77 119.76 112.36 131.45 119.3 149.2 C 112.36 166.95 96.77 178.64 79.3 179.2 L 54.3 179.2 C 65.02 160.64 65.02 137.76 54.3 119.2 Z",
+      "viewBox": {
+        "x": 0,
+        "y": 0,
+        "width": 100,
+        "height": 60
+      },
+      "rawSvgContent": "\u003Cpath d=\u0022M 119.3 149.2 L 139.3 149.2 M 39.3 134.2 L 62.3 134.2 M 39.3 164.2 L 62.3 164.2\u0022 fill=\u0022none\u0022 stroke=\u0022#000000\u0022 stroke-miterlimit=\u002210\u0022 pointer-events=\u0022all\u0022 style=\u0022stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\u0022 /\u003E\u003Cpath d=\u0022M 79.3 119.2 C 96.77 119.76 112.36 131.45 119.3 149.2 C 112.36 166.95 96.77 178.64 79.3 179.2 L 54.3 179.2 C 65.02 160.64 65.02 137.76 54.3 119.2 Z\u0022 fill=\u0022#ffffff\u0022 stroke=\u0022#000000\u0022 stroke-miterlimit=\u002210\u0022 pointer-events=\u0022all\u0022 style=\u0022fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\u0022 /\u003E\u003Cellipse cx=\u0022123.05\u0022 cy=\u0022149.2\u0022 rx=\u00223.75\u0022 ry=\u00223.75\u0022 fill=\u0022#ffffff\u0022 stroke=\u0022#000000\u0022 pointer-events=\u0022all\u0022 style=\u0022fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\u0022 /\u003E",
+      "pins": null,
+      "description": "Generated dynamically from draw.io SVG element payload",
+      "textLabels": []
+    },
+    "Dynamic_Symbol_317215398": {
+      "id": "Dynamic_Symbol_317215398",
+      "title": "Inverting Contact",
+      "category": "Dynamic",
+      "pathData": "",
+      "viewBox": {
+        "x": 0,
+        "y": 0,
+        "width": 10,
+        "height": 10
+      },
+      "rawSvgContent": "\u003Cellipse cx=\u0022139.3\u0022 cy=\u0022149.2\u0022 rx=\u00224\u0022 ry=\u00224\u0022 fill=\u0022#ffffff\u0022 stroke=\u0022#000000\u0022 pointer-events=\u0022all\u0022 style=\u0022fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\u0022 /\u003E",
+      "pins": null,
+      "description": "Generated dynamically from draw.io SVG element payload",
+      "textLabels": []
+    },
+    "Dynamic_Symbol_714531452": {
+      "id": "Dynamic_Symbol_714531452",
+      "title": "Inverting Contact",
+      "category": "Dynamic",
+      "pathData": "",
+      "viewBox": {
+        "x": 0,
+        "y": 0,
+        "width": 10,
+        "height": 10
+      },
+      "rawSvgContent": "\u003Cellipse cx=\u0022139.3\u0022 cy=\u002229.2\u0022 rx=\u00224\u0022 ry=\u00224\u0022 fill=\u0022#ffffff\u0022 stroke=\u0022#000000\u0022 pointer-events=\u0022all\u0022 style=\u0022fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\u0022 /\u003E",
+      "pins": null,
+      "description": "Generated dynamically from draw.io SVG element payload",
+      "textLabels": []
+    }
+  },
+  "ports": [
+    {
+      "id": "CfasowpfS4fuEIK-9qhX-19",
+      "type": "output",
+      "x": 5,
+      "y": 15,
+      "radius": 5,
+      "label": null,
+      "labelPosition": null,
+      "direction": null
+    },
+    {
+      "id": "CfasowpfS4fuEIK-9qhX-22",
+      "type": "output",
+      "x": 5,
+      "y": 165,
+      "radius": 5,
+      "label": null,
+      "labelPosition": null,
+      "direction": null
+    },
+    {
+      "id": "CfasowpfS4fuEIK-9qhX-26",
+      "type": "output",
+      "x": 195,
+      "y": 30,
+      "radius": 5,
+      "label": null,
+      "labelPosition": null,
+      "direction": null
+    },
+    {
+      "id": "CfasowpfS4fuEIK-9qhX-30",
+      "type": "output",
+      "x": 195,
+      "y": 150,
+      "radius": 5,
+      "label": null,
+      "labelPosition": null,
+      "direction": null
+    },
+    {
+      "id": "CfasowpfS4fuEIK-9qhX-34",
+      "type": "output",
+      "x": 140,
+      "y": 150,
+      "radius": 5,
+      "label": null,
+      "labelPosition": null,
+      "direction": null
+    },
+    {
+      "id": "CfasowpfS4fuEIK-9qhX-35",
+      "type": "input",
+      "x": 140,
+      "y": 30,
+      "radius": 5,
+      "label": null,
+      "labelPosition": null,
+      "direction": null
+    }
+  ],
+  "wires": [
+    {
+      "id": "CfasowpfS4fuEIK-9qhX-14",
+      "path": "M 39.30 44.20 L 39.30 59.20 L 139.30 129.20 L 140.00 150.00",
+      "strokeWidth": 2,
+      "color": "#2C3E50",
+      "sourceId": null,
+      "targetId": "CfasowpfS4fuEIK-9qhX-34",
+      "logicState": null
+    },
+    {
+      "id": "CfasowpfS4fuEIK-9qhX-15",
+      "path": "M 140.00 30.00 L 139.30 44.20 L 39.30 114.20 L 39.30 134.20",
+      "strokeWidth": 2,
+      "color": "#2C3E50",
+      "sourceId": "CfasowpfS4fuEIK-9qhX-35",
+      "targetId": null,
+      "logicState": null
+    },
+    {
+      "id": "CfasowpfS4fuEIK-9qhX-21",
+      "path": "M 39.30 14.20 L 5.00 15.00",
+      "strokeWidth": 2,
+      "color": "#2C3E50",
+      "sourceId": null,
+      "targetId": "CfasowpfS4fuEIK-9qhX-19",
+      "logicState": null
+    },
+    {
+      "id": "CfasowpfS4fuEIK-9qhX-23",
+      "path": "M 39.30 164.20 L 5.00 165.00",
+      "strokeWidth": 2,
+      "color": "#2C3E50",
+      "sourceId": null,
+      "targetId": "CfasowpfS4fuEIK-9qhX-22",
+      "logicState": null
+    },
+    {
+      "id": "CfasowpfS4fuEIK-9qhX-27",
+      "path": "M 140.00 30.00 L 195.00 30.00",
+      "strokeWidth": 2,
+      "color": "#2C3E50",
+      "sourceId": "CfasowpfS4fuEIK-9qhX-35",
+      "targetId": "CfasowpfS4fuEIK-9qhX-26",
+      "logicState": null
+    },
+    {
+      "id": "CfasowpfS4fuEIK-9qhX-31",
+      "path": "M 140.00 150.00 L 195.00 150.00",
+      "strokeWidth": 2,
+      "color": "#2C3E50",
+      "sourceId": "CfasowpfS4fuEIK-9qhX-34",
+      "targetId": "CfasowpfS4fuEIK-9qhX-30",
+      "logicState": null
+    }
+  ],
+  "junctions": [],
+  "widgets": [
+    {
+      "id": "CfasowpfS4fuEIK-9qhX-32",
+      "type": "svgSymbol",
+      "x": 40,
+      "y": 0,
+      "width": 100,
+      "height": 60,
+      "rotation": 0,
+      "symbolId": "Dynamic_Symbol_1668575153",
+      "rawGroupContent": "",
+      "fill": null,
+      "stroke": "#2C3E50",
+      "strokeWidth": 2,
+      "scale": 1
+    },
+    {
+      "id": "CfasowpfS4fuEIK-9qhX-33",
+      "type": "svgSymbol",
+      "x": 40,
+      "y": 120,
+      "width": 100,
+      "height": 60,
+      "rotation": 0,
+      "symbolId": "Dynamic_Symbol_1706672575",
+      "rawGroupContent": "",
+      "fill": null,
+      "stroke": "#2C3E50",
+      "strokeWidth": 2,
+      "scale": 1
+    }
+  ],
+  "verification": null
+}
