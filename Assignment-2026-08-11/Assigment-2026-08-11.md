@@ -39,3 +39,6 @@ http://172.104.42.221:5050/lesson-editor
 8. ตรวจสอบหน้า SUMMARY
 ![[Pasted image 20260811061414.png|986]]
 
+
+
+ตรวจให้ครบทุกใบงาน แล้วใส่ผลไว้ใน  [Issues #1](https://github.com/Lab-Happy/LabBuddy-Lesson/issues/1)
