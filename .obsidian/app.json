@@ -1,5 +1,7 @@
 {
   "alwaysUpdateLinks": true,
   "showInlineTitle": false,
-  "readableLineLength": false
+  "readableLineLength": false,
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true
 }
