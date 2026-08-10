@@ -2,12 +2,15 @@
 
 1. Fork repo นี้
 2. Clone ไปที่เครื่อง
-3. เปิดไฟล์ ในโฟลเดอร์ IC-Test ด้วย Lesson Authoring
+3. เปิดไฟล์ ในโฟลเดอร์ IC-Test ด้วย Lesson Authoring 
+
+http://172.104.42.221:5050/lesson-editor
+
 	เช่น IC_7404_Lesson
 
 ![alt text|951](image1.png)
 
-4. ตรวจสอบชื่อไฟล์และองค์ประกอบในหน้า COVER
+1. ตรวจสอบชื่อไฟล์และองค์ประกอบในหน้า COVER
 
 ![[Image2.png|950]]
 
