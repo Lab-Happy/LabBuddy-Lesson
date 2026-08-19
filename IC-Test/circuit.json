@@ -1,0 +1,47 @@
+{
+  "version": "2.0-2607",
+  "title": "Converted Circuit",
+  "description": "coord_mode=raw",
+  "width": 1000,
+  "height": 1000,
+  "backgroundColor": "#FFFFFF",
+  "embeddedSymbols": {
+    "Dynamic_Symbol_2003178334": {
+      "id": "Dynamic_Symbol_2003178334",
+      "title": "Inverter 2",
+      "category": "Dynamic",
+      "pathData": "M 0 30 L 20 30 M 84 30 L 100 30 M 77 30 L 17 60 L 17 0 Z",
+      "viewBox": {
+        "x": 0,
+        "y": 0,
+        "width": 100,
+        "height": 60
+      },
+      "rawSvgContent": "\u003Cpath d=\u0022M 0 30 L 20 30\u0022 fill=\u0022#ffffff\u0022 stroke=\u0022#000000\u0022 stroke-miterlimit=\u002210\u0022 pointer-events=\u0022all\u0022 style=\u0022fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\u0022 /\u003E\u003Cpath d=\u0022M 84 30 L 100 30\u0022 fill=\u0022#ffffff\u0022 stroke=\u0022#000000\u0022 stroke-miterlimit=\u002210\u0022 pointer-events=\u0022all\u0022 style=\u0022fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\u0022 /\u003E\u003Cpath d=\u0022M 77 30 L 17 60 L 17 0 Z\u0022 fill=\u0022#ffffff\u0022 stroke=\u0022#000000\u0022 stroke-miterlimit=\u002210\u0022 pointer-events=\u0022all\u0022 style=\u0022fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\u0022 /\u003E\u003Cellipse cx=\u002281\u0022 cy=\u002230\u0022 rx=\u00224\u0022 ry=\u00224\u0022 fill=\u0022#ffffff\u0022 stroke=\u0022#000000\u0022 pointer-events=\u0022all\u0022 style=\u0022fill: var(--ge-adaptive-bg, #ffffff); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\u0022 /\u003E",
+      "pins": null,
+      "description": "Generated dynamically from draw.io SVG element payload",
+      "textLabels": []
+    }
+  },
+  "ports": [],
+  "wires": [],
+  "junctions": [],
+  "widgets": [
+    {
+      "id": "GaugqqRvZJHVTO4dfKne-1",
+      "type": "svgSymbol",
+      "x": 0,
+      "y": 0,
+      "width": 100,
+      "height": 60,
+      "rotation": 0,
+      "symbolId": "Dynamic_Symbol_2003178334",
+      "rawGroupContent": "",
+      "fill": null,
+      "stroke": "#2C3E50",
+      "strokeWidth": 2,
+      "scale": 1
+    }
+  ],
+  "verification": null
+}
